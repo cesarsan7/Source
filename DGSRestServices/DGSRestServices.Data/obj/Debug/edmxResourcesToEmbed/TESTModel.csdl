@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TESTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductCode" />
+      <PropertyRef Name="ShippingWeight" />
+      <PropertyRef Name="ShippingLength" />
+      <PropertyRef Name="ShippingWidth" />
+      <PropertyRef Name="ShippingHeight" />
+      <PropertyRef Name="UnitCost" />
+      <PropertyRef Name="PerOrder" />
+    </Key>
+    <Property Name="ProductCode" Type="Int32" Nullable="false" />
+    <Property Name="ShippingWeight" Type="Double" Nullable="false" />
+    <Property Name="ShippingLength" Type="Double" Nullable="false" />
+    <Property Name="ShippingWidth" Type="Double" Nullable="false" />
+    <Property Name="ShippingHeight" Type="Double" Nullable="false" />
+    <Property Name="UnitCost" Type="Double" Nullable="false" />
+    <Property Name="PerOrder" Type="Byte" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TESTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="Self.Products" />
+  </EntityContainer>
+</Schema>

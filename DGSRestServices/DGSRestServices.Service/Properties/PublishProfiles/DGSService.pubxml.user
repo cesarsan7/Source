@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACuZDJe2AjkOJHI+onGyI7gAAAAACAAAAAAADZgAAwAAAABAAAABTAOTuZbGDJKy3PVzmC12zAAAAAASAAACgAAAAEAAAAGa+uK4qP4J2xFj4yKO3vTaAAAAAgcrYsiZgzGmkXgOnwrfB2o0Cg/XwJK+9sGw8t6Bn9zsWn2FsHcDgpwO5EOeNodNQ2p2Du9pYNx14gwWYVo+CR+RUIxeLmRX/YfEnBATl8DL+Wb3LXS1K7sDYfy4Mx88S4PT1mPx8i710GlLxISlU4Xe3i1rq1JdMU3Pk6I9bkQEUAAAAnbEGa1EShBeg6YRiCMxMyXxlDjM=</EncryptedPassword>
+    <_PublishTargetUrl>C:\Users\cessangu\Documents</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DGSRestServices.Common.dll">
+      <publishTime>10/14/2015 11:31:31</publishTime>
+    </File>
+    <File Include="bin/DGSRestServices.Controller.dll">
+      <publishTime>10/14/2015 11:31:33</publishTime>
+    </File>
+    <File Include="bin/DGSRestServices.Data.dll">
+      <publishTime>10/14/2015 11:31:31</publishTime>
+    </File>
+    <File Include="bin/DGSRestServices.Facade.dll">
+      <publishTime>10/14/2015 11:31:33</publishTime>
+    </File>
+    <File Include="bin/DGSRestServices.Model.dll">
+      <publishTime>10/05/2015 14:34:38</publishTime>
+    </File>
+    <File Include="bin/DGSRestServices.Service.dll">
+      <publishTime>10/14/2015 11:31:34</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/16/2015 17:36:24</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/16/2015 17:36:24</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>09/23/2015 13:09:30</publishTime>
+    </File>
+    <File Include="DataMensajes.xml">
+      <publishTime>10/06/2015 16:43:00</publishTime>
+    </File>
+    <File Include="DataMessage.xml">
+      <publishTime>10/06/2015 16:43:00</publishTime>
+    </File>
+    <File Include="DGSWCFService.svc">
+      <publishTime>09/16/2015 16:28:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/27/2015 20:55:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/14/2015 11:31:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

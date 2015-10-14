@@ -1,0 +1,17 @@
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Model\bin\Release\DGSRestServices.Model.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Model\bin\Release\DGSRestServices.Model.pdb
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Model\obj\Release\DGSRestServices.Model.csprojResolveAssemblyReference.cache
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Model\obj\Release\DGSRestServices.Model.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Model\obj\Release\DGSRestServices.Model.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\DGSRestServices.Model.dll.config
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\DGSRestServices.Model.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\DGSRestServices.Model.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\EntityFramework.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\log4net.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\EntityFramework.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\bin\Release\log4net.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\obj\Release\DGSRestServices.Model.csprojResolveAssemblyReference.cache
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\obj\Release\DGSRestServices.Model.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Model\obj\Release\DGSRestServices.Model.pdb

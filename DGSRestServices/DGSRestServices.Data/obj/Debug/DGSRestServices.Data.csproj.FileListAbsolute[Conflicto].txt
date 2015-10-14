@@ -1,0 +1,31 @@
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll.config
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.pdb
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.xml
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.pdb
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.csprojResolveAssemblyReference.cache
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll.config
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.pdb
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.dll
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.xml
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.csprojResolveAssemblyReference.cache
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.dll
+C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Casino\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.csprojResolveAssemblyReference.cache
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll.config
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.csprojResolveAssemblyReference.cache

@@ -1,0 +1,28 @@
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.pdb
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.csprojResolveAssemblyReference.cache
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.dll
+F:\Cesar\Desarrollo\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.dll.config
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.pdb
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\log4net.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Release\log4net.xml
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.csprojResolveAssemblyReference.cache
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.dll
+C:\Users\cessangu\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\DGSRestServices.Common.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\log4net.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Release\log4net.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.csprojResolveAssemblyReference.cache
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Release\DGSRestServices.Common.pdb

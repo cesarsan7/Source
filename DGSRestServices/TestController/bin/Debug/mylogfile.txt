@@ -1,0 +1,220 @@
+2015-09-23 14:21:04,656 [7] ERROR TestController.Log4NetHelper - error
+2015-09-23 14:21:04,663 [7] INFO TestController.Log4NetHelper - info
+2015-09-23 14:21:04,663 [7] DEBUG TestController.Log4NetHelper - debug
+2015-09-24 13:48:01,426 [9] ERROR DGSRestServices.Common.Utilities.Log4NetHelper - error
+2015-09-24 13:48:01,521 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-09-24 13:48:01,521 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-09-24 13:50:22,277 [9] ERROR DGSRestServices.Common.Utilities.Log4NetHelper - error
+2015-09-24 13:50:22,283 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-09-24 13:50:22,283 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-09-24 23:16:20,289 [9] ERROR DGSRestServices.Common.Utilities.Log4NetHelper - error
+2015-09-24 23:16:21,151 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-09-24 23:16:21,526 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-09-26 18:51:23,993 [9] ERROR DGSRestServices.Common.Utilities.Log4NetHelper - error
+2015-09-26 18:51:24,676 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-09-26 18:51:25,231 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-09-26 19:00:11,970 [9] ERROR DGSRestServices.Common.Utilities.Log4NetHelper - error
+2015-10-01 23:41:53,089 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-01 23:41:53,189 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-01 23:41:53,189 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-01 23:43:23,750 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-01 23:43:23,750 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-01 23:43:23,750 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-03 00:47:20,413 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-03 00:47:20,604 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-03 00:47:20,604 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-03 00:49:58,969 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-03 00:49:58,969 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-03 00:49:58,969 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-03 00:56:19,994 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-03 00:56:20,010 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-03 00:56:20,010 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-03 22:57:46,398 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-03 22:57:46,414 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-03 22:57:46,415 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-03 23:22:16,808 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-03 23:22:16,818 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-03 23:22:16,818 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-05 13:48:41,178 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-05 13:48:41,209 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-05 13:48:41,209 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-05 13:49:46,266 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-05 13:49:46,272 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-05 13:49:46,273 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-05 14:12:32,012 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-05 14:12:32,021 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-05 14:12:32,021 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 11:52:09,041 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 11:52:09,080 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 11:52:09,080 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 13:52:12,768 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 13:52:12,812 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 13:52:12,812 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 13:59:07,561 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 13:59:07,568 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 13:59:07,568 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 14:33:42,858 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 14:33:42,865 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 14:33:42,865 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 14:35:22,471 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 14:35:22,479 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 14:35:22,479 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 14:37:03,042 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 14:37:03,052 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 14:37:03,052 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 14:38:53,482 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 14:38:53,489 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 14:38:53,489 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:07:49,001 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 15:07:49,008 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:07:49,008 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:08:06,958 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 15:08:06,958 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:08:06,958 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:08:38,280 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 15:08:38,288 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:08:38,288 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:08:53,839 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 15:08:53,839 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:08:53,839 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:09:21,067 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 15:09:21,075 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:09:21,075 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:09:27,669 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 15:09:27,669 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:09:27,669 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:09:59,537 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 15:09:59,547 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:09:59,548 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:10:07,909 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 15:10:07,909 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:10:07,909 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:36:30,611 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 15:36:30,675 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:36:30,676 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 15:36:49,291 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 15:36:49,291 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 15:36:49,291 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:24:07,299 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:24:07,306 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:24:07,306 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:24:32,275 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:24:32,276 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:24:32,276 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:27:00,358 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:27:00,366 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:27:00,366 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:27:06,072 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:27:06,072 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:27:06,072 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:43:18,514 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:43:18,522 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:43:18,522 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:43:31,284 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:43:31,284 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:43:31,284 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:49:28,320 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:49:28,327 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:49:28,327 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:49:34,851 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:49:34,851 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:49:34,851 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:50:54,457 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:50:54,464 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:50:54,464 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:50:58,752 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:50:58,752 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:50:58,752 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:56:19,837 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:56:19,847 [7] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:56:19,847 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:56:25,370 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:56:25,370 [7] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:56:25,370 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:56:46,668 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:56:46,675 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:56:46,675 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:56:54,865 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:56:54,865 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:56:54,865 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:58:42,216 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 16:58:42,223 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:58:42,223 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 16:58:46,615 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 16:58:46,615 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 16:58:46,615 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:00:55,221 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:00:55,228 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:00:55,228 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:01:00,019 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:01:00,020 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:01:00,020 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:02:12,669 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:02:12,679 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:02:12,679 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:02:16,978 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:02:16,978 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:02:16,978 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:05:48,675 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:05:48,682 [7] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:05:48,682 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:05:55,505 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:05:55,505 [7] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:05:55,505 [7] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:07:11,636 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:07:11,644 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:07:11,644 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:07:13,693 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:07:13,693 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:07:13,693 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:08:08,458 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:08:08,468 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:08:08,468 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:08:10,491 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:08:10,491 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:08:10,491 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:08:17,031 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:08:17,039 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:08:17,039 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:08:19,060 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:08:19,060 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:08:19,060 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:08:37,331 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:08:37,338 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:08:37,339 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:08:39,325 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:08:39,325 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:08:39,325 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:09:23,720 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:09:23,729 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:09:23,729 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:09:25,928 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:09:25,928 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:09:25,928 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:12:37,393 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-06 17:12:37,401 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:12:37,401 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-06 17:12:39,471 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-06 17:12:39,471 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-06 17:12:39,471 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 10:45:18,303 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-13 10:45:18,317 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 10:45:18,318 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 10:45:20,501 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-13 10:45:20,501 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 10:45:20,501 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 10:50:20,095 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-13 10:50:20,103 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 10:50:20,103 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 10:50:45,436 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params agent = [LUFKIN] 	  Method :[DGSRestServices.Facade.Class.AgentFacade.agentGetInfoFacade] - Params idUser = [2] 	  - Exeception :
+2015-10-13 10:50:45,436 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 10:50:45,436 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 11:02:06,177 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-13 11:02:06,184 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 11:02:06,184 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 11:03:12,245 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-13 11:03:12,252 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 11:03:12,252 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-13 11:26:05,461 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-13 11:26:05,469 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-13 11:26:05,469 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
