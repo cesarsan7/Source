@@ -135,6 +135,58 @@ namespace DGSRestServices.Service
             return objAgentFacade.agentGetNotesFacade(idAgent);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Idagent"></param>
+        /// <param name="decimals"></param>
+        /// <param name="trunc"></param>
+        /// <param name="idCurrency"></param>
+        /// <returns></returns>
+        public string agentGetPlayersListService(string Idagent, string decimals, string trunc, string idCurrency)
+        {
+            return objAgentFacade.agentGetPlayersListFacade( Idagent,  decimals,  trunc,  idCurrency);
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <returns></returns>
+        public string agentGetPlayersIDService(string idAgent)
+        {
+            return objAgentFacade.agentGetPlayersIDFacade(idAgent);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <returns></returns>
+        public string agentGetStatisticsService(string  idAgent)
+        {
+            return objAgentFacade.agentGetStatisticsFacade( idAgent);
+        }
+
+        public string agentLineTypesGetListService(string idAgent)
+        {
+            return objAgentFacade.agentLineTypesGetListFacade( idAgent);
+        }
+
+        public string agentLineTypesGetListAddedService(string idAgent)
+        {
+            return objAgentFacade.agentLineTypesGetListAddedFacade(idAgent);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public string agentRightsGetListService()
+        {
+            return objAgentFacade.agentRightsGetListFacade();
+        }
         #endregion Methods GET
 
         #region Methods POST

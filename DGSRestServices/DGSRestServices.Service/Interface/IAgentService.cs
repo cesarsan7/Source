@@ -23,12 +23,14 @@ namespace DGSRestServices.Service
         #region Agent methods 
 
         #region Methods GET
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="agent"></param>
         /// <param name="idUser"></param>
         /// <returns></returns>
+        /// 
         [OperationContract]
         [WebInvoke(Method = "GET",
            RequestFormat = WebMessageFormat.Json,
@@ -124,7 +126,79 @@ namespace DGSRestServices.Service
         UriTemplate = "agentGetNotes/{idAgent}")]
         string agentGetNotesService(string idAgent);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Idagent"></param>
+        /// <param name="decimals"></param>
+        /// <param name="trunc"></param>
+        /// <param name="idCurrency"></param>
+        /// <returns></returns>
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+        RequestFormat = WebMessageFormat.Json,
+        ResponseFormat = WebMessageFormat.Json,
+        UriTemplate = "agentGetPlayersList/{Idagent}/{decimals}/{trunc}/{idCurrency}")]
+        string agentGetPlayersListService(string Idagent, string decimals, string trunc, string idCurrency);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <returns></returns>
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+        RequestFormat = WebMessageFormat.Json,
+        ResponseFormat = WebMessageFormat.Json,
+        UriTemplate = "agentGetPlayersID/{idagent}")]
+        string agentGetPlayersIDService(string idAgent);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <returns></returns>
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "agentGetStatistics/{idagent}")]
+        string agentGetStatisticsService(string idAgent);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <returns></returns>
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+        RequestFormat = WebMessageFormat.Json,
+        ResponseFormat = WebMessageFormat.Json,
+        UriTemplate = "agentLineTypesGetList/{idagent}")]
+        string agentLineTypesGetListService(string idAgent);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <returns></returns>
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+        RequestFormat = WebMessageFormat.Json,
+        ResponseFormat = WebMessageFormat.Json,
+        UriTemplate = "agentLineTypesGetListAdded/{idagent}")]
+        string agentLineTypesGetListAddedService(string idAgent);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+        RequestFormat = WebMessageFormat.Json,
+        ResponseFormat = WebMessageFormat.Json,
+        UriTemplate = "agentRightsGetList")]
+        string agentRightsGetListService();
 
         #endregion Methods GET
 

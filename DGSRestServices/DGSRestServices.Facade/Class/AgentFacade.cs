@@ -307,11 +307,19 @@ namespace DGSRestServices.Facade.Class
         /// <param name="trunc"></param>
         /// <param name="idCurrency"></param>
         /// <returns></returns>
-        public string agentGetPlayersListFacade(int Idagent, byte decimals, byte trunc, short idCurrency)
+        public string agentGetPlayersListFacade(string prIdagent, string prdecimals, string prtrunc, string pridCurrency)
         {
+
+            int Idagent; byte decimals; byte trunc; short idCurrency;
 
             try
             {
+
+                bool residAgent = int.TryParse(prIdagent, out Idagent);
+                bool resdecimals = byte.TryParse(prdecimals, out decimals);
+                bool restrunc = byte.TryParse(prtrunc, out trunc);
+                bool resCurrency = short.TryParse(pridCurrency, out idCurrency);
+
                 //Add arguments to  list
                 List<keyValue> lstParams = new List<keyValue>();
                 lstParams.Add(new keyValue("idAgent", Idagent));
@@ -340,11 +348,12 @@ namespace DGSRestServices.Facade.Class
         /// </summary>
         /// <param name="Idagent"></param>
         /// <returns></returns>
-        public string agentGetPlayersIDFacade(int idAgent)
+        public string agentGetPlayersIDFacade(string  pridAgent)
         {
-
+            int idAgent;
             try
             {
+                bool res = int.TryParse(pridAgent, out idAgent);
                 //Add arguments to  list
                 List<keyValue> lstParams = new List<keyValue>();
                 lstParams.Add(new keyValue("idAgent", idAgent));
@@ -372,11 +381,13 @@ namespace DGSRestServices.Facade.Class
         /// </summary>
         /// <param name="idAgent"></param>
         /// <returns></returns>
-        public string agentGetStatisticsController(int idAgent)
+        public string agentGetStatisticsFacade(string pridAgent)
         {
 
             try
             {
+                int idAgent;
+                bool res = int.TryParse(pridAgent, out idAgent);
                 //Add arguments to  list
                 List<keyValue> lstParams = new List<keyValue>();
                 lstParams.Add(new keyValue("idAgent", idAgent));
@@ -404,11 +415,14 @@ namespace DGSRestServices.Facade.Class
         /// </summary>
         /// <param name="idAgent"></param>
         /// <returns></returns>
-        public string agentLineTypesGetListFacade(int idAgent)
+        public string agentLineTypesGetListFacade(string pridAgent)
         {
 
             try
             {
+                int idAgent;
+                bool res = int.TryParse(pridAgent, out idAgent);
+
                 //Add arguments to  list
                 List<keyValue> lstParams = new List<keyValue>();
                 lstParams.Add(new keyValue("idAgent", idAgent));
@@ -436,11 +450,14 @@ namespace DGSRestServices.Facade.Class
         /// </summary>
         /// <param name="idAgent"></param>
         /// <returns></returns>
-        public string agentLineTypesGetListAddedcontroller(int idAgent)
+        public string agentLineTypesGetListAddedFacade(string pridAgent)
         {
 
             try
             {
+                int idAgent;
+                bool res = int.TryParse(pridAgent, out idAgent);
+
                 //Add arguments to  list
                 List<keyValue> lstParams = new List<keyValue>();
                 lstParams.Add(new keyValue("idAgent", idAgent));

@@ -218,3 +218,6 @@
 2015-10-13 11:26:05,461 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
 2015-10-13 11:26:05,469 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
 2015-10-13 11:26:05,469 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-14 15:34:48,210 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-14 15:34:48,235 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-14 15:34:48,235 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
