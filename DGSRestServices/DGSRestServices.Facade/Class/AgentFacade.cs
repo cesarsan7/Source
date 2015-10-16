@@ -59,7 +59,6 @@ namespace DGSRestServices.Facade.Class
         }
 
 
-
         #region Methods GET
         /// <summary>
         /// allows get  a list  the information of the agents, according parameters sent
