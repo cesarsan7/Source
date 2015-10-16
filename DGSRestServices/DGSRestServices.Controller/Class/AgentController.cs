@@ -11,6 +11,7 @@ using DGSRestServices.Data;
 using DGSRestServices.Model.Class;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Objects;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,63 +45,56 @@ namespace DGSRestServices.Controller.Class
         {
 
 
-            //Repository<AGENT> objInsert = new Repository<AGENT>();
+            Repository<AGENT> objInsert = new Repository<AGENT>();
 
-
-            //AGENT entidad;
-
-            //entidad.Address1 = "Avenida siempre vv";
-            //entidad.City = "El diamante";
-
-
-
-            //objInsert.InsertarRegistro(entidad);
+            
 
             //Repository<AgentInsert> objInsert = new Repository<AgentInsert>();
             DGSDATAEntities entities = new DGSDATAEntities();
             try
             {
+                
+                ObjectParameter prmOutIdAgent = new ObjectParameter("prmOutIdAgent", typeof(int));
+                ObjectParameter prmOutResult = new ObjectParameter("prmOutResult", typeof(int));
 
-                object obj = new object();
+                int res = entities.Agent_Insert(
+                   model.Enable,
+                    model.DontXferPlayerActivity, //prmDontXfer
+                    model.IsDistributor,
+                    model.IdUser,   // prmIdUser,
+                    model.Distributor,
+                    model.Makeup, 
+                    model.CommSports,
+                    model.CommCasino,
+                    model.CommHorses,
+                    model.PerHeadSports,
+                    model.PerHeadCasino,
+                    model.PerHeadHorses,
+                    model.IdAgentType,
+                    model.IdCurrency,
+                    model.IdBook,
+                    model.IdGrouping,
+                    model.Agent,
+                    model.Name,
+                    model.Password,
+                    model.City,
+                    model.State,
+                    model.Country,
+                    model.Address1,
+                    model.Address2,
+                    model.Email,
+                    model.Phone,
+                    model.Fax,
+                    model.Zip,
+                    model.OnlineAccess,
+                    model.OnlineMessage,
+                    null,//model.IdLineType,
+                    prmOutIdAgent,
+                    prmOutResult);
 
-                //obj = entities.Agent_Insert(true, true, true, 1, 1.0, 1, 1, 1, 2.0, 3.0, 4.0, 3, 4, 2, 1, "", "name", "pass", "city", "state", "coontry", "addres1", "addres2", "email"
-                //    , "", "", "zip", true, "", obj);
-
-
-                //var result = entities.Agent_Insert(model.Enable,
-                //                                     model.DontXferPlayerActivity,
-                //                                     model.IsDistributor,
-                //                                     model.IdUser,
-                //                                     model.Makeup,
-                //                                     model.CommSports,
-                //                                     model.CommCasino,
-                //                                     model.CommHorses,
-                //                                     model.PerHeadSports,
-                //                                     model.PerHeadCasino,
-                //                                     model.PerHeadHorses,
-                //                                     model.IdAgentType,
-                //                                     model.IdCurrency,
-                //                                     model.IdBook,
-                //                                     model.IdGrouping,
-                //                                     model.Agent,
-                //                                     model.Name,
-                //                                     model.Password,
-                //                                     model.City,
-                //                                     model.State,
-                //                                     model.Country,
-                //                                     model.Address1,
-                //                                     model.Address2,
-                //                                     model.Email,
-                //                                     model.Phone,
-                //                                     model.Fax,
-                //                                     model.Zip,
-                //                                     model.OnlineAccess,
-                //                                     model.OnlineMessage,
-                //                                     null
-                //                                    );
-
+             
             }
-            catch (Exception exc)
+            catch 
             {
                 throw;
             }

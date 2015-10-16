@@ -8,12 +8,12 @@ namespace DGSRestServices.Model.Class
 {
     public class AgentModel
     {
-        private int mIdAgent = 0;
-        private int mIdCurrency = 0;
-        private int mIdBook = 0;
+        private short mIdAgent = 0;
+        private short mIdCurrency = 0;
+        private short mIdBook = 0;
         private string mAgent ;
-        private int mIdAgentType = 0;
-        private int mIdGrouping = 0;
+        private short mIdAgentType = 0;
+        private short mIdGrouping = 0;
         private int mDistributor = 0;
         private string mPassword ;
         private bool mEnable = false;
@@ -30,19 +30,22 @@ namespace DGSRestServices.Model.Class
         private bool mIsDistributor = false;
         private bool mDontXferPlayerActivity = false;
         private bool mIsDistributed = false;
-        private int mCommSports = 0;
-        private int mCommCasino = 0;
-        private int mCommHorses = 0;
-        private double mPerHeadSports = 0.0;
-        private double mPerHeadCasino = 0.0;
-        private double mPerHeadHorses = 0.0;
+        private byte mCommSports = 0;
+        private byte mCommCasino = 0;
+        private byte mCommHorses = 0;
+        private decimal mPerHeadSports = 0;
+        private decimal mPerHeadCasino = 0;
+        private decimal mPerHeadHorses = 0;
         private bool mOnlineAccess = false;
         private string mOnlineMessage ;
         private DateTime mLastModification = DateTime.Now;
         private int mLastModificationUser = 0;
-        private int mIdLineType = 0;
+        private short mIdLineType = 0;
+        private int mIdUser = 0;
+        private decimal mprMakeup = 0;
 
-        public int IdAgent
+
+        public short IdAgent
         {
             get
             {
@@ -54,7 +57,19 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int IdCurrency
+        public int IdUser
+        {
+            get
+            {
+                return mIdUser;
+            }
+            set
+            {
+                mIdUser = value;
+            }
+        }
+
+        public short IdCurrency
         {
             get
             {
@@ -66,7 +81,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int IdBook
+        public short IdBook
         {
             get
             {
@@ -90,7 +105,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int IdAgentType
+        public short IdAgentType
         {
             get
             {
@@ -102,7 +117,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int IdGrouping
+        public short IdGrouping
         {
             get
             {
@@ -306,7 +321,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int CommSports
+        public byte CommSports
         {
             get
             {
@@ -318,7 +333,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int CommCasino
+        public byte CommCasino
         {
             get
             {
@@ -330,7 +345,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int CommHorses
+        public byte CommHorses
         {
             get
             {
@@ -342,7 +357,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public Double PerHeadSports
+        public decimal PerHeadSports
         {
             get
             {
@@ -354,7 +369,19 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public Double PerHeadCasino
+        public decimal Makeup
+        {
+            get
+            {
+                return mprMakeup;
+            }
+            set
+            {
+                mprMakeup = value;
+            }
+        }
+
+        public decimal PerHeadCasino
         {
             get
             {
@@ -366,7 +393,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public Double PerHeadHorses
+        public decimal PerHeadHorses
         {
             get
             {
@@ -426,7 +453,7 @@ namespace DGSRestServices.Model.Class
             }
         }
 
-        public int IdLineType
+        public short IdLineType
         {
             get
             {

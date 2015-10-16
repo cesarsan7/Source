@@ -221,3 +221,36 @@
 2015-10-14 15:34:48,210 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
 2015-10-14 15:34:48,235 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
 2015-10-14 15:34:48,235 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-15 09:21:58,509 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-15 09:21:58,517 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-15 09:21:58,517 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-15 09:26:13,565 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-15 09:26:13,573 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-15 09:26:13,573 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-15 10:28:30,408 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-15 10:28:30,416 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-15 10:28:30,416 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 13:47:13,786 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 13:47:13,794 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 13:47:13,794 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 13:55:54,220 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 13:55:54,227 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 13:55:54,227 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 14:29:26,499 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 14:29:26,507 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 14:29:26,507 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 14:32:05,096 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 14:32:05,106 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 14:32:05,106 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 14:39:50,077 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 14:39:50,084 [8] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 14:39:50,084 [8] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 14:50:44,978 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 14:50:44,985 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 14:50:44,985 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 14:52:20,117 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 14:52:20,128 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 14:52:20,128 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug
+2015-10-16 14:56:50,892 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception :
+2015-10-16 14:56:50,901 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper - info
+2015-10-16 14:56:50,901 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper - debug

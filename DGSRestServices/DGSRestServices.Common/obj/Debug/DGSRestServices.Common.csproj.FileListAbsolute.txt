@@ -49,6 +49,16 @@ C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRest
 C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.xml
 C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.dll
 C:\Users\cessangu.CARVAJAL\Google Drive\Trabajos\Store Procedure\Fuentes\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.pdb
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\DGSRestServices.Common.dll
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\DGSRestServices.Common.pdb
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.dll
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.dll
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.xml
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.xml
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.dll
+C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.pdb
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\DGSRestServices.Common.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\DGSRestServices.Common.pdb
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.dll
@@ -57,6 +67,5 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.pdb

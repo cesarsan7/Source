@@ -33,7 +33,8 @@ namespace DGSRestServices.Data
         public virtual DbSet<ActivityLock> ActivityLock { get; set; }
         public virtual DbSet<ADJUSTMENTTYPE> ADJUSTMENTTYPE { get; set; }
         public virtual DbSet<AFFILIATE> AFFILIATE { get; set; }
-        public virtual DbSet<AGENT> AGENT { get; set; }
+
+            public virtual DbSet<AGENT> AGENT { get; set; }
         public virtual DbSet<AGENTACCOUNTING> AGENTACCOUNTING { get; set; }
         public virtual DbSet<AGENTCOMMISSION> AGENTCOMMISSION { get; set; }
         public virtual DbSet<AGENTLINETYPE> AGENTLINETYPE { get; set; }
