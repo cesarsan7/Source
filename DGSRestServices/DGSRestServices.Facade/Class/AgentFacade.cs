@@ -28,7 +28,7 @@ namespace DGSRestServices.Facade.Class
 
         #endregion
 
-        #region Methods GET
+       
         /// <summary>
         /// allows for the information of the agent, which is sent as a parameter
         /// </summary>
@@ -59,6 +59,8 @@ namespace DGSRestServices.Facade.Class
         }
 
 
+
+        #region Methods GET
         /// <summary>
         /// allows get  a list  the information of the agents, according parameters sent
         /// </summary>
@@ -510,6 +512,21 @@ namespace DGSRestServices.Facade.Class
 
 
         #endregion Methods GET
+        
+
+        #region Methods PUT
+        #endregion Methods PUT
+
+
+        #region Methods POST
+        #endregion Methods POST
+
+
+        #region Methods DELETE
+        #endregion Methods DELETE
+        
+
+        #region Private Methods
 
 
         /// <summary>
@@ -519,12 +536,12 @@ namespace DGSRestServices.Facade.Class
         /// <param name="listParams"></param>
         /// <param name="method"></param>
         /// <returns></returns>
-        public string controllerResponse ( object objResultController , List<keyValue> listParams,string method)
+        public string controllerResponse(object objResultController, List<keyValue> listParams, string method)
         {
 
             string result = string.Empty;
             try
-            {                
+            {
                 StringBuilder sbParams = new StringBuilder();
                 responseOperation = new MessageInfo();
 
@@ -546,8 +563,8 @@ namespace DGSRestServices.Facade.Class
                 {
                     responseOperation.messageID = 1;
                     object obj = new object[] { responseOperation, objResultController };
-                    DataMessage.ObtenerMensaje(responseOperation);                  
-                    result = JavaScriptSerializerHelper.GetString(obj);                   
+                    DataMessage.ObtenerMensaje(responseOperation);
+                    result = JavaScriptSerializerHelper.GetString(obj);
                 }
             }
 
@@ -559,7 +576,6 @@ namespace DGSRestServices.Facade.Class
 
             return result;
         }
-
         /// <summary>
         /// 
         /// </summary>
@@ -582,5 +598,7 @@ namespace DGSRestServices.Facade.Class
             }
             return true;
         }
+        #endregion Private Methods
+
     }
 }
