@@ -42,8 +42,15 @@ namespace DGSRestServices.Controller.Class
 
         #region Method CRUD
 
+
         #region Methods POST
-        public void createAgent(AgentModel model, ref ObjectParameter  prmOutIdAgent, ref ObjectParameter  prmOutResult)
+        /// <summary>
+        /// Allow create a new agent
+        /// </summary>
+        /// <param name="model"> Objet type ModelAgent</param>
+        /// <param name="prmOutIdAgent">New id agent record</param>
+        /// <param name="prmOutResult">Result the process created</param>
+        public void addAgentController(AgentModel model, ref ObjectParameter  prmOutIdAgent, ref ObjectParameter  prmOutResult)
         {
 
             int res = 0;
@@ -103,6 +110,62 @@ namespace DGSRestServices.Controller.Class
         }
 
         #endregion Methods POST
+
+        #region Methods PUT 
+
+        /// <summary>
+        /// Allow update a record the agent
+        /// </summary>
+        /// <param name="model"></param>
+        public int updateAgentController (AgentModel model)
+        {
+            int res = 0;
+            DGSDATAEntities entities = new DGSDATAEntities();
+            try
+            {
+                res = entities.Agent_Update(             
+                               model.IdAgent ,
+                               model.Enable ,
+                               model.DontXferPlayerActivity,//prmDontXfer
+                               model.IsDistributor ,
+                               model.IdUser ,
+                               model.Distributor ,
+                               model.Makeup ,
+                               model.CommSports ,
+                               model.CommCasino ,
+                               model.CommHorses ,
+                               model.PerHeadSports ,
+                               model.PerHeadCasino ,
+                               model.PerHeadHorses ,
+                               model.IdAgentType ,
+                               model.IdCurrency ,
+                               model.IdBook ,
+                               model.IdGrouping ,
+                               model.Agent ,
+                               model.Name ,
+                               model.Password ,
+                               model.City ,
+                               model.State ,
+                               model.Country ,
+                               model.Address1 ,
+                               model.Address2 ,
+                               model.Email ,
+                               model.Phone ,
+                               model.Fax ,
+                               model.Zip ,
+                               model.OnlineAccess,
+                               model.OnlineMessage ,
+                               model.IdLineType
+               );
+                return res;
+            }
+            catch
+            {
+                throw;
+            }
+            
+        }
+        #endregion Methods PUT 
 
         #region Methods GET
         /// <summary>
@@ -683,6 +746,31 @@ namespace DGSRestServices.Controller.Class
 
         }
         #endregion Methods GET
+
+        #region Methods DELETE
+        /// <summary>
+        /// Allow delete a record de Agent and 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <param name="idUser"></param>
+        /// <returns></returns>
+        public int deleteAgentController(int idAgent , short idUser)
+        {
+            int res = 0;
+            DGSDATAEntities entities = new DGSDATAEntities();
+            try
+            {
+                res = entities.Agent_Delete(idAgent, idUser);
+               
+                return res;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        #endregion
+
     }
 }
  #endregion

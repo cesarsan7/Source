@@ -516,6 +516,33 @@ namespace DGSRestServices.Facade.Class
         
 
         #region Methods PUT
+
+        public string updateAgentFacade (AgentModel agentModel)
+        {
+
+            responseOperation = new MessageInfo();
+            try
+            {
+
+
+                  objController.updateAgentController(agentModel);
+
+
+                responseOperation.messageID = 1;
+                DataMessage.ObtenerMensaje(responseOperation);
+                responseOperation.MessageLog = string.Format(" It was updated on record [Agent] with ID :", agentModel.IdAgent.ToString());
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.INFO, string.Format(" It was updated on record [Agent] with ID :", agentModel.IdAgent.ToString()));
+                return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, null });
+            }
+            catch (Exception exc)
+            {
+                responseOperation.messageID = 3;
+                responseOperation.MessageLog = exc.ToString();
+                DataMessage.ObtenerMensaje(responseOperation);
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.ERROR, "An exception is presented  .", exc);
+                return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, null });
+            }
+        }
         #endregion Methods PUT
 
 
@@ -523,7 +550,7 @@ namespace DGSRestServices.Facade.Class
 
         public  string addAgentFacade (AgentModel agentModel)
         {
-           
+            responseOperation = new MessageInfo();
             try
             {
                 //Add arguments to  list
@@ -534,8 +561,7 @@ namespace DGSRestServices.Facade.Class
                 ObjectParameter prmOutIdAgent = new ObjectParameter("prmOutIdAgent", typeof(int));
                 ObjectParameter prmOutResult = new ObjectParameter("prmOutResult", typeof(int));
 
-                //get result 
-                objController.createAgent(agentModel, ref prmOutIdAgent,    ref prmOutResult);
+                objController.addAgentController(agentModel, ref prmOutIdAgent,    ref prmOutResult);
                 
                 int op = Int32.Parse(prmOutResult.Value.ToString());
                 switch (op)
@@ -556,19 +582,59 @@ namespace DGSRestServices.Facade.Class
                         break;
                 }
 
-                return "";
+                DataMessage.ObtenerMensaje(responseOperation);
+                responseOperation.MessageLog = string.Format(" It was created on record [Agent] with ID :", Int32.Parse(prmOutIdAgent.Value.ToString()));
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.INFO,  string.Format(" It was created on record [Agent] with ID :", prmOutIdAgent.ToString()));
+                return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, null });
             }
             catch (Exception exc)
             {
                 responseOperation.messageID = 3;
+                responseOperation.MessageLog = exc.ToString();
+                DataMessage.ObtenerMensaje(responseOperation);
                 Log4NetHelper.addLog(Log4NetHelper.levelLog.ERROR, "An exception is presented  .", exc);
                 return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, null });
             }
+            
+
         }
         #endregion Methods POST
 
 
         #region Methods DELETE
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idAgent"></param>
+        /// <param name="idUser"></param>
+        /// <returns></returns>
+        public string deleteAgentFacade (int idAgent, short idUser)
+        {
+            int res;
+            responseOperation = new MessageInfo();
+            try
+            {
+
+
+                res = objController.deleteAgentController(idAgent, idUser);
+
+                responseOperation.messageID = 1;
+                DataMessage.ObtenerMensaje(responseOperation);
+                responseOperation.MessageLog = string.Format(" It was delete on record [Agent] :");
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.INFO, string.Format(" It was updated on record [Agent]. Response :", res.ToString()));
+                return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, res });
+            }
+            catch (Exception exc)
+            {
+                responseOperation.messageID = 3;
+                responseOperation.MessageLog = exc.ToString();
+                DataMessage.ObtenerMensaje(responseOperation);
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.ERROR, "An exception is presented  .", exc);
+                return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, null });
+            }
+        }
+
         #endregion Methods DELETE
         
 

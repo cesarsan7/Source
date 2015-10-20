@@ -204,6 +204,13 @@ namespace DGSRestServices.Service
 
         #region Methods POST
 
+        [OperationContract]
+        [WebInvoke(Method = "POST",
+        ResponseFormat = WebMessageFormat.Json,
+        RequestFormat = WebMessageFormat.Json,
+        UriTemplate = "addAgent/{agentModel}")]
+        string addAgentService(AgentModel agentModel);
+
 
         #endregion Methods POST
 

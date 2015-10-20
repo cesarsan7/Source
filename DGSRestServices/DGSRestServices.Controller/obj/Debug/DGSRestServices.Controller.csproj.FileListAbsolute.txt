@@ -76,19 +76,3 @@ C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.C
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Controller\obj\Debug\DGSRestServices.Controller.csprojResolveAssemblyReference.cache
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Controller\obj\Debug\DGSRestServices.Controller.dll
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Controller\obj\Debug\DGSRestServices.Controller.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Controller.dll.config
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Controller.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Controller.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Data.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Model.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\EntityFramework.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\log4net.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Data.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\DGSRestServices.Model.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\EntityFramework.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\bin\Debug\log4net.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\obj\Debug\DGSRestServices.Controller.csprojResolveAssemblyReference.cache
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\obj\Debug\DGSRestServices.Controller.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Controller\obj\Debug\DGSRestServices.Controller.pdb

@@ -36,11 +36,11 @@ namespace DGSRestServices.Service
         /// 
         /// </summary>
         /// <param name="agentModel"></param>
-        public void  addAgent(AgentModel agentModel)
-        { 
+        public string  addAgentService(AgentModel agentModel)
+        {
 
+            return objAgentFacade.addAgentFacade(agentModel);
 
-           
         }
 
         #endregion Methods PUT

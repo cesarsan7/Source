@@ -61,59 +61,35 @@ namespace DGSRestServices.Common.Utilities
             if (exc != null)
             {
                 sbError.AppendFormat("Error Message {0}" ,exc.Message);
-                sbError.AppendFormat("Error Source  {1}", exc.Source);
-                sbError.AppendFormat("Error InnerException.Message  {2}", exc.InnerException.Message);
+                sbError.AppendFormat("Error Source  {0}", exc.Source);
+                sbError.AppendFormat("Error InnerException.Message  {0}", exc.InnerException.Message);
 
             }
             switch (_levelLog)
             {
                 case Log4NetHelper.levelLog.DEBUG:
-                    Log4NetHelper.GetLog().DebugFormat("{0} - Exeception :", message, sbError.ToString ());
+                    Log4NetHelper.GetLog().DebugFormat("{0} - Exeception : {1}", message, sbError.ToString ());
                     break;
                 case Log4NetHelper.levelLog.ERROR:
-                    Log4NetHelper.GetLog().ErrorFormat("{0} - Exeception :", message, sbError.ToString());
+                    Log4NetHelper.GetLog().ErrorFormat("{0} - Exeception :{1}", message, sbError.ToString());
                     break;
                 case Log4NetHelper.levelLog.FATAL:
-                    Log4NetHelper.GetLog().FatalFormat("{0} - Exeception :", message, sbError.ToString());
+                    Log4NetHelper.GetLog().FatalFormat("{0} - Exeception :{1}", message, sbError.ToString());
                     break;
                 case Log4NetHelper.levelLog.INFO:
-                    Log4NetHelper.GetLog().InfoFormat("{0} - Exeception :", message, sbError.ToString());
+                    Log4NetHelper.GetLog().InfoFormat("{0} - Exeception :{1}", message, sbError.ToString());
                     break;
                 case Log4NetHelper.levelLog.OFF:
                   //  Log4NetHelper.GetLog().("{0} - Exeception :", message, sbError.ToString());
                     break;
                 case Log4NetHelper.levelLog.WARN:
-                    Log4NetHelper.GetLog().WarnFormat("{0} - Exeception :", message, sbError.ToString());
+                    Log4NetHelper.GetLog().WarnFormat("{0} - Exeception :{1}", message, sbError.ToString());
                     break;
                 case Log4NetHelper.levelLog.ALL:
                    // Log4NetHelper.GetLog().Error("{0} - Exeception :", message, sbError.ToString());
                     break;
 
-
-
             }
-           
-            Log4NetHelper.GetLog().Info("info");
-            Log4NetHelper.GetLog().Debug("debug");
-
-            //switch(levelLog)
-            //{
-            //    case  "INFO":
-            //        _log.GetLog().Debug("debug");
-            //        break;
-            //}
-            /*
-               _log.
-                string title = string.Format("{0} {1}",
-                        loggingEvent.Level.DisplayName,
-                        loggingEvent.LoggerName);
-
-                string message = string.Format(
-                    "{0}{1}{1}{2}{1}{1}(Yes to continue, No to debug)",
-                    "",
-                    Environment.NewLine,
-                    loggingEvent.LocationInformation.FullInfo);
-            */
 
         }
         #endregion

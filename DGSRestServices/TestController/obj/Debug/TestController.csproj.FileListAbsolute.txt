@@ -89,25 +89,3 @@ C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\TestController\bi
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\TestController\bin\Debug\log4net.xml
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Data.pdb
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\TestController\obj\Debug\TestController.csprojResolveAssemblyReference.cache
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\EntityFramework.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\TestController.exe.config
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\TestController.exe
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\TestController.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Common.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Controller.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Facade.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Model.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\log4net.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Data.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Common.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Controller.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Facade.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Model.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\EntityFramework.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\log4net.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\bin\Debug\DGSRestServices.Data.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\obj\Debug\TestController.csprojResolveAssemblyReference.cache
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\obj\Debug\TestController.exe
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\TestController\obj\Debug\TestController.pdb
