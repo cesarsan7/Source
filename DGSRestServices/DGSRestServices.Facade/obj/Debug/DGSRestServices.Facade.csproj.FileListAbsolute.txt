@@ -96,7 +96,6 @@ C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.F
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.csprojResolveAssemblyReference.cache
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.dll
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin\Debug\DGSRestServices.Facade.dll.config
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin\Debug\DGSRestServices.Facade.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin\Debug\DGSRestServices.Facade.pdb
@@ -114,5 +113,6 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin\Debug\log4net.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\bin\Debug\DGSRestServices.Data.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Facade\obj\Debug\DGSRestServices.Facade.pdb

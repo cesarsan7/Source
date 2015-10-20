@@ -107,7 +107,6 @@ C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.S
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll.config
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.pdb
@@ -127,5 +126,6 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bi
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.pdb
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.pdb
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\log4net.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb

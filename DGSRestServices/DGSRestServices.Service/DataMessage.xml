@@ -52,4 +52,34 @@ A continuación se realiza la descripción de cada uno de los elementros que com
     <Success>false</Success>
     <!--Fin de los mensajes del Proyecto-->
   </MessageInfo>
+
+  <!--   Errors associated to agent-->
+  <MessageInfo>
+    <MessageID>100</MessageID>
+    <MessageDescription>It was created correctly the record agent.</MessageDescription>
+    <MessageLog>OK</MessageLog>
+    <Success>true</Success>
+  </MessageInfo>
+
+  <MessageInfo>
+    <MessageID>101</MessageID>
+    <MessageDescription>INSERTING DUPLICATE AGENT</MessageDescription>
+    <MessageLog></MessageLog>
+    <Success>false</Success>
+  </MessageInfo>
+
+  <MessageInfo>
+    <MessageID>102</MessageID>
+    <MessageDescription>ERROR INSERTING AGENT</MessageDescription>
+    <MessageLog></MessageLog>
+    <Success>false</Success>
+  </MessageInfo>
+
+  <MessageInfo>
+    <MessageID>103</MessageID>
+    <MessageDescription>ERROR INSERTING AGENTSTATISTIC ELSE IDENTITY INSERTED</MessageDescription>
+    <MessageLog></MessageLog>
+    <Success>false</Success>
+  </MessageInfo>
+  <!--  end errors associated to agent-->
 </DataMessage>

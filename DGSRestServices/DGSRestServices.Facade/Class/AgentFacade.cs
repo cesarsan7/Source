@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DGSRestServices.Common.Utilities;
 using System.Reflection;
+using System.Data.Entity.Core.Objects;
 
 namespace DGSRestServices.Facade.Class
 {
@@ -28,7 +29,8 @@ namespace DGSRestServices.Facade.Class
 
         #endregion
 
-       
+
+        #region Methods GET
         /// <summary>
         /// allows for the information of the agent, which is sent as a parameter
         /// </summary>
@@ -59,7 +61,7 @@ namespace DGSRestServices.Facade.Class
         }
 
 
-        #region Methods GET
+       
         /// <summary>
         /// allows get  a list  the information of the agents, according parameters sent
         /// </summary>
@@ -517,7 +519,52 @@ namespace DGSRestServices.Facade.Class
         #endregion Methods PUT
 
 
-        #region Methods POST
+        #region Methods POST 
+
+        public  string addAgentFacade (AgentModel agentModel)
+        {
+           
+            try
+            {
+                //Add arguments to  list
+                List<keyValue> lstParams = new List<keyValue>();
+                //lstParams.Add(new keyValue("agent", agent)); lstParams.Add(new keyValue("idUser", idUser));
+                string method = string.Format("{0}.{1}", MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name);
+
+                ObjectParameter prmOutIdAgent = new ObjectParameter("prmOutIdAgent", typeof(int));
+                ObjectParameter prmOutResult = new ObjectParameter("prmOutResult", typeof(int));
+
+                //get result 
+                objController.createAgent(agentModel, ref prmOutIdAgent,    ref prmOutResult);
+                
+                int op = Int32.Parse(prmOutResult.Value.ToString());
+                switch (op)
+                {
+
+                    case 0:
+                        responseOperation.messageID = 100;
+                        break;
+
+                    case -1:
+                        responseOperation.messageID = 101;
+                        break;
+                    case -2:
+                        responseOperation.messageID = 102;
+                        break;
+                    case -3:
+                        responseOperation.messageID = 103;
+                        break;
+                }
+
+                return "";
+            }
+            catch (Exception exc)
+            {
+                responseOperation.messageID = 3;
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.ERROR, "An exception is presented  .", exc);
+                return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, null });
+            }
+        }
         #endregion Methods POST
 
 

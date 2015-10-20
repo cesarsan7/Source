@@ -44,12 +44,15 @@ namespace TestController
         public static void addAgentController()
         {
 
-            AgentController objAgentController = new AgentController();
+            AgentFacade objAgentFacade = new AgentFacade();
             AgentModel objModel = new AgentModel();
+
+
+            
 
             objModel.IdCurrency = 328;
             objModel.IdBook = 608;
-            objModel.Agent = "CESARSAN";
+            objModel.Agent = "COSITA";
             objModel.IdAgentType = 254;
             objModel.IdGrouping = 742;
             objModel.Distributor = 596;
@@ -81,7 +84,7 @@ namespace TestController
 
 
 
-            objAgentController.createAgent(objModel);
+            objAgentFacade.addAgentFacade(objModel);
 
         }
         public static void agentGetInfo(string agent,short idUSer )

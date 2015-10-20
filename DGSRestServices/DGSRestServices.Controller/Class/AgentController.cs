@@ -37,28 +37,25 @@ namespace DGSRestServices.Controller.Class
         {
             objRespository = new Repository<AGENT>();
         }
-        #endregion 
+        #endregion
 
 
         #region Method CRUD
-        public void createAgent(AgentModel model)
+
+        #region Methods POST
+        public void createAgent(AgentModel model, ref ObjectParameter  prmOutIdAgent, ref ObjectParameter  prmOutResult)
         {
 
-
+            int res = 0;
             Repository<AGENT> objInsert = new Repository<AGENT>();
-
-            
 
             //Repository<AgentInsert> objInsert = new Repository<AgentInsert>();
             DGSDATAEntities entities = new DGSDATAEntities();
             try
             {
-                
-                ObjectParameter prmOutIdAgent = new ObjectParameter("prmOutIdAgent", typeof(int));
-                ObjectParameter prmOutResult = new ObjectParameter("prmOutResult", typeof(int));
 
-                int res = entities.Agent_Insert(
-                   model.Enable,
+                res = entities.Agent_Insert(
+                    model.Enable,
                     model.DontXferPlayerActivity, //prmDontXfer
                     model.IsDistributor,
                     model.IdUser,   // prmIdUser,
@@ -88,19 +85,24 @@ namespace DGSRestServices.Controller.Class
                     model.Zip,
                     model.OnlineAccess,
                     model.OnlineMessage,
-                    null,//model.IdLineType,
+                    model.IdLineType,
                     prmOutIdAgent,
                     prmOutResult);
 
-             
+                   //object obj = new object[] { prmOutIdAgent, prmOutResult };
+
+                //return obj;
             }
             catch 
             {
                 throw;
             }
 
+           
+            
         }
 
+        #endregion Methods POST
 
         #region Methods GET
         /// <summary>

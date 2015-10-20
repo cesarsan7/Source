@@ -67,5 +67,6 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.pdb
