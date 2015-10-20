@@ -48,17 +48,17 @@ namespace TestController
             AgentModel objModel = new AgentModel();
 
 
-            
 
+            objModel.IdAgent = 10013;
             objModel.IdCurrency = 328;
-            objModel.IdBook = 608;
-            objModel.Agent = "COSITA";
+            objModel.IdBook = 607;
+            objModel.Agent = "SaLoSanchez";
             objModel.IdAgentType = 254;
             objModel.IdGrouping = 742;
             objModel.Distributor = 596;
             objModel.Password = "L1YTHHQ6J";
             objModel.Enable = false;
-            objModel.Name = "Cosita";       
+            objModel.Name = "SaLoSanchez";       
             objModel.Address1 = "CARVAJAL SANTA MONICA";
             objModel.Address2 = "CARVAJAL SANTA MONICA";
             objModel.City = "Cali";
@@ -67,7 +67,7 @@ namespace TestController
             objModel.Zip = "760001";
             objModel.Phone = "3113585328";
             objModel.Fax = "3113585328";
-            objModel.Email = "nanaylucas@hotmail.com";
+            objModel.Email = "SaLoSanchez@hotmail.com";
             objModel.IsDistributor = true;
             objModel.CommSports = 167;
             objModel.CommCasino = 39;
@@ -75,16 +75,13 @@ namespace TestController
             objModel.PerHeadSports = 0;
             objModel.PerHeadCasino= 1473147;
             objModel.PerHeadHorses = 10000;
-            objModel.OnlineAccess = false;
+            objModel.OnlineAccess = true;
             objModel.OnlineMessage = "Message";
             //objModel.LastModification = "2015-11-06 17:54:51";
             objModel.LastModificationUser = 2;
-            objModel.IdLineType = 9999;
+            objModel.IdLineType = 131;
 
-
-
-
-            objAgentFacade.addAgentFacade(objModel);
+           var result= objAgentFacade.updateAgentFacade(objModel);
 
         }
         public static void agentGetInfo(string agent,short idUSer )
