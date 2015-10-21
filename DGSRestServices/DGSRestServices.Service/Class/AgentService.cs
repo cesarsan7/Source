@@ -36,10 +36,10 @@ namespace DGSRestServices.Service
         /// 
         /// </summary>
         /// <param name="agentModel"></param>
-        public string  addAgentService(AgentModel agentModel)
+        public string  updateAgentService(AgentModel agentModel)
         {
 
-            return objAgentFacade.addAgentFacade(agentModel);
+            return objAgentFacade.updateAgentFacade(agentModel);
 
         }
 
@@ -190,9 +190,28 @@ namespace DGSRestServices.Service
         #endregion Methods GET
 
         #region Methods POST
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="agentModel"></param>
+        /// <returns></returns>
+        public string addAgentService(AgentModel agentModel)
+        {
+
+            return objAgentFacade.addAgentFacade(agentModel);
+
+        }
         #endregion Methods POST
 
         #region Methods DELETE
+
+        public string deleteAgentService(string idAgent, string idUser)
+        {
+
+           return objAgentFacade.deleteAgentFacade( idAgent,  idUser);
+            //return true;
+
+        }
         #endregion Methods DELETE
 
         #endregion Agent methods

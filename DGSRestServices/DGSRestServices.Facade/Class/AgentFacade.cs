@@ -609,9 +609,19 @@ namespace DGSRestServices.Facade.Class
         /// <param name="idAgent"></param>
         /// <param name="idUser"></param>
         /// <returns></returns>
-        public string deleteAgentFacade (int idAgent, short idUser)
+        public string deleteAgentFacade (string pridAgent, string pridUser)
         {
             int res;
+
+
+            int idAgent;
+            short idUser;
+
+            bool residAgent = int.TryParse(pridAgent, out idAgent);
+            bool resUser = short.TryParse(pridUser, out idUser);
+     
+
+
             responseOperation = new MessageInfo();
             try
             {
@@ -622,7 +632,8 @@ namespace DGSRestServices.Facade.Class
                 responseOperation.messageID = 1;
                 DataMessage.ObtenerMensaje(responseOperation);
                 responseOperation.MessageLog = string.Format(" It was delete on record [Agent] :");
-                Log4NetHelper.addLog(Log4NetHelper.levelLog.INFO, string.Format(" It was updated on record [Agent]. Response :", res.ToString()));
+                responseOperation.MessageDescription = string.Format("Result execution SP Agent_Delete ({0},{1} = {2})", idAgent, idUser, res);
+                Log4NetHelper.addLog(Log4NetHelper.levelLog.INFO, string.Format("Result execution SP Agent_Delete ({0},{1} = {2})", idAgent, idUser, res));
                 return JavaScriptSerializerHelper.GetString(new object[] { responseOperation, res });
             }
             catch (Exception exc)

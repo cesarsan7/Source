@@ -13,15 +13,16 @@ namespace TestController
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             
             Log4NetHelper.addLog(Log4NetHelper.levelLog.DEBUG, "");
-           // agentGetInfo("LUFKIN", 2);
+            //agentGetInfo("LUFKIN", 2);
             // addAgentController();
-            TestController.DGSService.DGSWCFServiceClient objDGSService = new DGSService.DGSWCFServiceClient();
+            TestController.ServicioDGSService.DGSWCFServiceClient objDGSService = new ServicioDGSService.DGSWCFServiceClient();
+            //DGSService.DGSWCFServiceClient objDGSService = new DGSService.DGSWCFServiceClient();
 
-            // var result = objDGSService.agentGetInfoService("LUFKIN", 2);
+             var result = objDGSService.agentGetInfoService("LUFKIN", "2");
             //testAgentController();
             addAgentController();
 

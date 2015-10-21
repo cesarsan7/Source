@@ -756,13 +756,13 @@ namespace DGSRestServices.Controller.Class
         /// <returns></returns>
         public int deleteAgentController(int idAgent , short idUser)
         {
-            int res = 0;
+            int result = 0;
             DGSDATAEntities entities = new DGSDATAEntities();
             try
             {
-                res = entities.Agent_Delete(idAgent, idUser);
+                result = entities.Agent_Delete(idAgent, idUser);
                
-                return res;
+                return result;
             }
             catch
             {

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DGSWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:16687/DGSWCFService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:16687/DGSWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:16687/DGSWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DGSRestServices.Model.Class" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDGSWCFService_agentGetInfoService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetInfoService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetInfoService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetInfoServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentFindListService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentFindListService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentFindListService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentFindListServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetAgentsListService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetAgentsListService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetAgentsListService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetAgentsListServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetDistributorService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetDistributorService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetDistributorService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetDistributorServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetInfoDistributorService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetInfoDistributorService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetInfoDistributorService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetInfoDistributorServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetListService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetListService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetListService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetListServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetListByBookService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetListByBookService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetListByBookService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetListByBookServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetNotesService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetNotesService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetNotesService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetNotesServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetPlayersListService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetPlayersListService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetPlayersListService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetPlayersListServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetPlayersIDService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetPlayersIDService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetPlayersIDService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetPlayersIDServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetStatisticsService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetStatisticsService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentGetStatisticsService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentGetStatisticsServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentLineTypesGetListService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentLineTypesGetListService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentLineTypesGetListService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentLineTypesGetListServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentLineTypesGetListAddedService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentLineTypesGetListAddedService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentLineTypesGetListAddedService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentLineTypesGetListAddedServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentRightsGetListService_InputMessage">
+    <wsdl:part name="parameters" element="tns:agentRightsGetListService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_agentRightsGetListService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agentRightsGetListServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_addAgentService_InputMessage">
+    <wsdl:part name="parameters" element="tns:addAgentService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_addAgentService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addAgentServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_updateAgentService_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateAgentService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_updateAgentService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateAgentServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_deleteAgentService_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteAgentService" />
+  </wsdl:message>
+  <wsdl:message name="IDGSWCFService_deleteAgentService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteAgentServiceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDGSWCFService">
+    <wsdl:operation name="agentGetInfoService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetInfoService" message="tns:IDGSWCFService_agentGetInfoService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetInfoServiceResponse" message="tns:IDGSWCFService_agentGetInfoService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentFindListService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentFindListService" message="tns:IDGSWCFService_agentFindListService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentFindListServiceResponse" message="tns:IDGSWCFService_agentFindListService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetAgentsListService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetAgentsListService" message="tns:IDGSWCFService_agentGetAgentsListService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetAgentsListServiceResponse" message="tns:IDGSWCFService_agentGetAgentsListService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetDistributorService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetDistributorService" message="tns:IDGSWCFService_agentGetDistributorService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetDistributorServiceResponse" message="tns:IDGSWCFService_agentGetDistributorService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetInfoDistributorService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetInfoDistributorService" message="tns:IDGSWCFService_agentGetInfoDistributorService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetInfoDistributorServiceResponse" message="tns:IDGSWCFService_agentGetInfoDistributorService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetListService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetListService" message="tns:IDGSWCFService_agentGetListService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetListServiceResponse" message="tns:IDGSWCFService_agentGetListService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetListByBookService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetListByBookService" message="tns:IDGSWCFService_agentGetListByBookService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetListByBookServiceResponse" message="tns:IDGSWCFService_agentGetListByBookService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetNotesService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetNotesService" message="tns:IDGSWCFService_agentGetNotesService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetNotesServiceResponse" message="tns:IDGSWCFService_agentGetNotesService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetPlayersListService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetPlayersListService" message="tns:IDGSWCFService_agentGetPlayersListService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetPlayersListServiceResponse" message="tns:IDGSWCFService_agentGetPlayersListService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetPlayersIDService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetPlayersIDService" message="tns:IDGSWCFService_agentGetPlayersIDService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetPlayersIDServiceResponse" message="tns:IDGSWCFService_agentGetPlayersIDService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentGetStatisticsService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetStatisticsService" message="tns:IDGSWCFService_agentGetStatisticsService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentGetStatisticsServiceResponse" message="tns:IDGSWCFService_agentGetStatisticsService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentLineTypesGetListService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentLineTypesGetListService" message="tns:IDGSWCFService_agentLineTypesGetListService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentLineTypesGetListServiceResponse" message="tns:IDGSWCFService_agentLineTypesGetListService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentLineTypesGetListAddedService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentLineTypesGetListAddedService" message="tns:IDGSWCFService_agentLineTypesGetListAddedService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentLineTypesGetListAddedServiceResponse" message="tns:IDGSWCFService_agentLineTypesGetListAddedService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agentRightsGetListService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/agentRightsGetListService" message="tns:IDGSWCFService_agentRightsGetListService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/agentRightsGetListServiceResponse" message="tns:IDGSWCFService_agentRightsGetListService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addAgentService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/addAgentService" message="tns:IDGSWCFService_addAgentService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/addAgentServiceResponse" message="tns:IDGSWCFService_addAgentService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAgentService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/updateAgentService" message="tns:IDGSWCFService_updateAgentService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/updateAgentServiceResponse" message="tns:IDGSWCFService_updateAgentService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAgentService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDGSWCFService/deleteAgentService" message="tns:IDGSWCFService_deleteAgentService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDGSWCFService/deleteAgentServiceResponse" message="tns:IDGSWCFService_deleteAgentService_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="DGSWCFService" />
+</wsdl:definitions>

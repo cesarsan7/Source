@@ -30,3 +30,9 @@
 2015-10-20 10:31:17,867 [9] INFO DGSRestServices.Common.Utilities.Log4NetHelper -  It was updated on record [Agent] with ID : - Exeception :
 2015-10-20 10:31:23,586 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 
 2015-10-20 10:31:45,667 [10] INFO DGSRestServices.Common.Utilities.Log4NetHelper -  It was updated on record [Agent] with ID : - Exeception :
+2015-10-21 10:30:31,225 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 
+2015-10-21 10:31:21,538 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 
+2015-10-21 11:36:51,208 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 
+2015-10-21 11:53:42,294 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 
+2015-10-21 13:58:28,159 [10] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 
+2015-10-21 14:34:20,342 [9] DEBUG DGSRestServices.Common.Utilities.Log4NetHelper -  - Exeception : 

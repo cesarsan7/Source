@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DGSRestServices.Model.Class" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DGSRestServices.Model.Class" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="AgentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Agent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommCasino" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CommHorses" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CommSports" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Distributor" type="xs:int" />
+      <xs:element minOccurs="0" name="DontXferPlayerActivity" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdAgent" type="xs:short" />
+      <xs:element minOccurs="0" name="IdAgentType" type="xs:short" />
+      <xs:element minOccurs="0" name="IdBook" type="xs:short" />
+      <xs:element minOccurs="0" name="IdCurrency" type="xs:short" />
+      <xs:element minOccurs="0" name="IdGrouping" type="xs:short" />
+      <xs:element minOccurs="0" name="IdLineType" type="xs:short" />
+      <xs:element minOccurs="0" name="IdUser" type="xs:int" />
+      <xs:element minOccurs="0" name="IsDistributed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsDistributor" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LastModification" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModificationUser" type="xs:int" />
+      <xs:element minOccurs="0" name="Makeup" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnlineAccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OnlineMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PerHeadCasino" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PerHeadHorses" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PerHeadSports" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Zip" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AgentModel" nillable="true" type="tns:AgentModel" />
+</xs:schema>

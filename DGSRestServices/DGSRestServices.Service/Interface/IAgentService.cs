@@ -208,7 +208,7 @@ namespace DGSRestServices.Service
         [WebInvoke(Method = "POST",
         ResponseFormat = WebMessageFormat.Json,
         RequestFormat = WebMessageFormat.Json,
-        UriTemplate = "addAgent/{agentModel}")]
+        UriTemplate = "addAgent")]
         string addAgentService(AgentModel agentModel);
 
 
@@ -216,10 +216,21 @@ namespace DGSRestServices.Service
 
         #region Methods PUT
 
+        [OperationContract]
+        [WebInvoke(Method = "PUT",
+        ResponseFormat = WebMessageFormat.Json,
+        RequestFormat = WebMessageFormat.Json,
+        UriTemplate = "updateAgent")]
+        string updateAgentService(AgentModel agentModel);
+
         #endregion Methods PUT
 
         #region Methods DELETE
 
+     
+        [WebInvoke(Method = "DELETE", UriTemplate = "deleteAgent/{idAgent}/{idUser}")]
+        [OperationContract]
+        string deleteAgentService(string idAgent, string idUser);
         #endregion Methods DELETE
 
         #endregion Agent methods 
