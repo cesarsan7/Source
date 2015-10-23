@@ -103,16 +103,39 @@ namespace DGSRestServices.Model.Class
 
         #region Methods 
 
-        public bool validatePlayer()
+        /// <summary>
+        /// allow validate a players
+        /// </summary>
+        /// <returns></returns>
+        public bool isvalidPlayer()
         {
-            
-            if (
-                  (! isValidString(this.Player)) || (!isValidString(this.Player)) || (!isValidString(this.Player))
+            StringBuilder sbValidate = new StringBuilder();
 
-                )
+            if (! isValidString(this.Player))                 
             {
-
+                sbValidate.AppendFormat("The value for the field [Player] can not be null");               
             }
+            if (!isValidString(this.Password))
+            {
+                sbValidate.AppendFormat("The value for the field [Password] can not be null");               
+            }       
+            if (!isValidString(this.LineStyle.ToString()))
+            {
+                sbValidate.AppendFormat("The value for the field [LineStyle] can not be null");               
+            }
+            if (!isValidString(this.NHLLine.ToString()))
+            {
+                sbValidate.AppendFormat("The value for the field [NHLLine] can not be null");               
+            }
+
+            if (!isValidString(this.MLBLine.ToString()))
+            {
+                sbValidate.AppendFormat("The value for the field [MLBLine] can not be null");               
+            }
+
+            if(sbValidate.Length>0)
+               return false;
+
             return true;
         }
 
@@ -123,7 +146,8 @@ namespace DGSRestServices.Model.Class
                 return false;
             return true;
         }
-        
+    
+
 
         #endregion
     }
