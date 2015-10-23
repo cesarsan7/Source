@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\AgentController.cs" />
+    <Compile Include="Class\BookController.cs" />
+    <Compile Include="Class\PlayerController.cs" />
+    <Compile Include="Class\UserController.cs" />
     <Compile Include="Interface\IAgentController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

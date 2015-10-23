@@ -231,6 +231,7 @@ namespace DGSRestServices.Service
         [WebInvoke(Method = "DELETE", UriTemplate = "deleteAgent/{idAgent}/{idUser}")]
         [OperationContract]
         string deleteAgentService(string idAgent, string idUser);
+
         #endregion Methods DELETE
 
         #endregion Agent methods 

@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TestController.ServicioDGSService {
+namespace DGSServiceClient.DGSService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServicioDGSService.IDGSWCFService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="DGSService.IDGSWCFService")]
     public interface IDGSWCFService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/agentGetInfoService", ReplyAction="http://tempuri.org/IDGSWCFService/agentGetInfoServiceResponse")]
@@ -119,12 +119,12 @@ namespace TestController.ServicioDGSService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IDGSWCFServiceChannel : TestController.ServicioDGSService.IDGSWCFService, System.ServiceModel.IClientChannel {
+    public interface IDGSWCFServiceChannel : DGSServiceClient.DGSService.IDGSWCFService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class DGSWCFServiceClient : System.ServiceModel.ClientBase<TestController.ServicioDGSService.IDGSWCFService>, TestController.ServicioDGSService.IDGSWCFService {
+    public partial class DGSWCFServiceClient : System.ServiceModel.ClientBase<DGSServiceClient.DGSService.IDGSWCFService>, DGSServiceClient.DGSService.IDGSWCFService {
         
         public DGSWCFServiceClient() {
         }

@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
 * Clase         : AgentController
-* Objetivo      : Clase utilizada para definir el controlador del negocio de la tabla Agente
+* Objetivo      : Class used to define the controller board business agent
 * Autor         :
 * Fecha         : 21/10/2015
 *

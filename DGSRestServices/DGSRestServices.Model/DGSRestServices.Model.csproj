@@ -53,8 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\Agent.cs" />
     <Compile Include="Class\AgentModel.cs" />
+    <Compile Include="Class\BookModel.cs" />
+    <Compile Include="Class\PlayerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
