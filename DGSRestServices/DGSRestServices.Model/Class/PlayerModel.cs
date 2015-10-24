@@ -14,6 +14,7 @@ namespace DGSRestServices.Model.Class
         bool isValid { set; get; } = false;
         StringBuilder sbMessage = new StringBuilder ();
         #endregion 
+
         #region Properties  
 
         int IdPlayer { set; get; }

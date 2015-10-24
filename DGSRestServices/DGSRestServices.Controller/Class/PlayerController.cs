@@ -8,5 +8,11 @@ namespace DGSRestServices.Controller.Class
 {
     class PlayerController
     {
+
+        #region Properties 
+        #endregion 
+
+        #region Constructor 
+        #endregion
     }
 }

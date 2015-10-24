@@ -13,5 +13,12 @@ namespace DGSRestServices.Model.Class
         int IdWebColumn { get; set; }
         DateTime LastModification { get; set; }
         DateTime LastModificationUser { get; set; }
+
+        #region Constructor 
+        public BookModel ()
+        {
+
+        }
+        #endregion
     }
 }
