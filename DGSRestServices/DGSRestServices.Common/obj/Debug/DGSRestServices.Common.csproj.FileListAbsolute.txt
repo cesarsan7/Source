@@ -69,3 +69,13 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\DGSRestServices.Common.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\DGSRestServices.Common.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\bin\Debug\log4net.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Common\obj\Debug\DGSRestServices.Common.pdb

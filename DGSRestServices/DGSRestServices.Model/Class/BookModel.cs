@@ -8,11 +8,11 @@ namespace DGSRestServices.Model.Class
 {
     public class BookModel
     {
-        short IdBook { get; set; }
-        string Description { get; set; }
-        int IdWebColumn { get; set; }
-        DateTime LastModification { get; set; }
-        DateTime LastModificationUser { get; set; }
+        public short IdBook { get; set; }
+        public string Description { get; set; }
+        public int IdWebColumn { get; set; }
+        public DateTime LastModification { get; set; }
+        public short LastModificationUser { get; set; }
 
         #region Constructor 
         public BookModel ()

@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\AgentFacade.cs" />
+    <Compile Include="Class\BookFacade.cs" />
     <Compile Include="Interface\IAgentFacade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

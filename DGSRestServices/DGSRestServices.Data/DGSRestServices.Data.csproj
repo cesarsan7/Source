@@ -201,6 +201,21 @@
     <Compile Include="BOOKTAX.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Book_GetAllList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Book_GetListInfo_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Book_GetList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Book_GetPlayerProfilesList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Book_GetUsersList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="CARDDEF.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
@@ -661,6 +676,9 @@
     <Compile Include="PlayerClaims.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="PlayerClaims_GetInfo_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="PLAYERCREDITCARD.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
@@ -668,6 +686,9 @@
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PLAYERHOLDSETTINGS.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerHoldSettings_GetList_Result.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PLAYERID.cs">
@@ -680,6 +701,15 @@
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PLAYERMESSAGES.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerMessages_GetInfo_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerMessages_GetList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerMessages_GetPlayers_Result.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PLAYERNOTES.cs">
@@ -745,6 +775,18 @@
     <Compile Include="PLAYERPROFILESTRAIGHTLIMITLOG.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="PlayerProfile_GetInfo_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerProfile_GetListByBook_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerProfile_GetListFiltered_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerProfile_GetList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="PLAYERRATE.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
@@ -755,6 +797,27 @@
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PLAYERWEEKLYBALANCE.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_FindList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_GetBlackBookList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_GetInfo_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_GetListByFilter_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_GetNotes_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_GetStatistics_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Player_GetStep_Result.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PoolPayout.cs">

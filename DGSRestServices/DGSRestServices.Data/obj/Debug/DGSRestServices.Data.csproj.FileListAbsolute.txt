@@ -57,3 +57,13 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Data\bin\D
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll.config
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\DGSRestServices.Data.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.csprojResolveAssemblyReference.cache
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Data\obj\Debug\DGSRestServices.Data.pdb

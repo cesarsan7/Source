@@ -49,9 +49,11 @@ namespace DGSRestServices.Controller.Class
 
         #region POST Methods 
 
-        public string addBookController ()
+        public int addBookController (BookModel model)
         {
-            return "";
+            int res = 0;
+            res = entities.Book_Insert(model.Description, model.IdWebColumn, model.LastModificationUser);
+            return res;
         }
         #endregion  POST Methods 
 

@@ -129,3 +129,25 @@ C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bi
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
 C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll.config
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Data.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Facade.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Model.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.SqlServer.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\log4net.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Data.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Facade.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Model.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.SqlServer.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.pdb
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\log4net.xml
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
+D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb

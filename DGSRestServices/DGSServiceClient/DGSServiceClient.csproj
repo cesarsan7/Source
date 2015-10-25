@@ -91,6 +91,10 @@
       <Project>{3bc3c979-936d-4131-a006-2867320b1e4a}</Project>
       <Name>DGSRestServices.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DGSRestServices.Facade\DGSRestServices.Facade.csproj">
+      <Project>{e6773333-2d61-481d-bbc7-20e4a08cf109}</Project>
+      <Name>DGSRestServices.Facade</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DGSRestServices.Model\DGSRestServices.Model.csproj">
       <Project>{ab749947-639d-42b7-bb30-dfa235d00483}</Project>
       <Name>DGSRestServices.Model</Name>
