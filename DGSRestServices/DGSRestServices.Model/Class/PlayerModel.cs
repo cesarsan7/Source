@@ -13,91 +13,95 @@ namespace DGSRestServices.Model.Class
         #region Atributes
         bool isValid { set; get; } = false;
         StringBuilder sbMessage = new StringBuilder ();
-        #endregion 
+        #endregion
 
         #region Properties  
 
-        int IdPlayer { set; get; }
-        short IdLineType { set; get; }
-        short IdOffice { set; get; }
-        int IdAgent { set; get; }
-        short IdCurrency { set; get; }
-        short IdGrouping { set; get; }
-        short IdSource { set; get; }
-        short IdProfile { set; get; }
-        short IdPlayerRate { set; get; }
-        short IdBook { set; get; }
-        int IdTimeZone { set; get; } = 1;
-        short IdLanguage { set; get; } = 1;
-        char ScheduleStyle { set; get; } = 'A';
-	    string Player { set; get; }
-        string Password { set; get; }
-        string Name { set; get; }
-        string LastName { set; get; }
-        string LastName2 { set; get; }
-        string Title { set; get; }
-        string Address1 { set; get; }
-        string Address2 { set; get; }
-        string City { set; get; }
-        string State { set; get; }
-        string Country { set; get; }
-        string Zip { set; get; }
-        string Phone { set; get; }
-        string Fax { set; get; }
-        string Email { set; get; }
-        char Status { set; get; }
-        bool AutoPay { set; get; }
-        bool BalanceChecked { set; get; }
-        decimal CreditLimit { set; get; }
-        bool NoLimit { set; get; }
-        decimal TempCredit { set; get; }
-        short SoftLimitPercent { set; get; }
-        DateTime TempCreditExpire { set; get; }
-        bool OnlineAccess { set; get; }
-        string OnlinePassword { set; get; }
-        string OnlineMessage { set; get; }
-        decimal OnlineMaxWager { set; get; }
-        decimal OnlineMinWager { set; get; }
-        decimal MaxWager { set; get; }
-        decimal MinWager { set; get; }
-        decimal CapPerGame { set; get; }
-        short ChartPercent { set; get; }
-        short MasterChart { set; get; }
-        bool Master { set; get; }
-        string FlagMessage { set; get; }
-        short IdFlagMessageType { set; get; }
-        short MaxActionPoints { set; get; }
-        char BonusPointsStatus { set; get; }
-        DateTime BonusPointsExpire { set; get; }
-        DateTime BonusPointsStart { set; get; }
-        char LineStyle { set; get; }
-        char NHLLine { set; get; }
-        char MLBLine { set; get; }
-        char PitcherDefault { set; get; }
-        bool DuplicatedBets { set; get; }
-        bool DuplicatedBetsOnline { set; get; }
-        decimal FreePlayAmount { set; get; }
-        string FreePlayMessage { set; get; }
-        bool ScheduleFB { set; get; }
-        bool ScheduleBB { set; get; }
-        bool ScheduleHK { set; get; }
-        bool ScheduleBS { set; get; }
-        decimal SettledFigure { set; get; }
-        bool ShowInTicker { set; get; }
-        bool EPOSPlayer { set; get; }
-        bool EnableHorses { set; get; }
-        bool EnableCasino { set; get; }
-        bool EnableSports { set; get; } = true;
-        DateTime DateOfBirth { set; get; } = new DateTime(1970, 1, 1);
-        string SecQuestion { set; get; }
-        string SecAnswer { set; get; }
-        string SignUpIP  { set ; get; } ="0.0.0.0";
-	    bool AllowNegTrans { set; get; } = false;
-        short LastModificationUser                 { set ; get; }
-	    bool HoldBets { set; get; } = false;
-        short HoldDelay { set; get; } = 0;
-        short IdProfileLimits { set; get; } = 1;
-        short EnableCards  { set; get; } = 1;
+        public int IdPlayer { get; set; }
+        public short IdLineType { get; set; }
+        public byte IdOffice { get; set; }
+        public int IdAgent { get; set; }
+        public short IdCurrency { get; set; }
+        public short IdGrouping { get; set; }
+        public short IdSource { get; set; }
+        public short IdProfile { get; set; }
+        public short IdPlayerRate { get; set; }
+        public short IdBook { get; set; }
+        public byte IdTimeZone { get; set; }
+        public byte IdLanguage { get; set; } = 1;
+        public string ScheduleStyle { get; set; } = "A";
+        public string Player { get; set; }
+        public string Password { get; set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public string LastName2 { get; set; }
+        public string Title { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
+        public string Zip { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+        public string Email { get; set; }
+        public string Status { get; set; }
+        public bool AutoPay { get; set; }
+        public bool BalanceChecked { get; set; }
+        public decimal CreditLimit { get; set; }
+        public bool NoLimit { get; set; }
+        public decimal TempCredit { get; set; }
+        public byte SoftLimitPercent { get; set; }
+        public DateTime TempCreditExpire { get; set; }
+        public bool OnlineAccess { get; set; }
+        public string OnlinePassword { get; set; }
+        public string OnlineMessage { get; set; }
+        public decimal OnlineMaxWager { get; set; }
+        public decimal OnlineMinWager { get; set; }
+        public decimal MaxWager { get; set; }
+        public decimal MinWager { get; set; }
+        public decimal CapPerGame { get; set; }
+        public short ChartPercent { get; set; }
+        public short MasterChart { get; set; }
+        public bool Master { get; set; }
+        public string FlagMessage { get; set; }
+        public byte IdFlagMessageType { get; set; }
+        public byte MaxActionPoints { get; set; }
+        public string BonusPointsStatus { get; set; }  //Validar que no sea NULL
+        public DateTime BonusPointsExpire { get; set; }
+        public DateTime BonusPointsStart { get; set; }
+        public string LineStyle { get; set; } //Validar que no sea NULL
+        public string NHLLine { get; set; } //Validar que no sea NULL
+        public string MLBLine { get; set; } //Validar que no sea NULL 
+        public byte PitcherDefault { get; set; }
+        public bool DuplicatedBets { get; set; }
+        public bool DuplicatedBetsOnline { get; set; }
+        public decimal FreePlayAmount { get; set; }
+        public string FreePlayMessage { get; set; }
+        public bool ScheduleFB { get; set; }
+        public bool ScheduleBB { get; set; }
+        public bool ScheduleHK { get; set; }
+        public bool ScheduleBS { get; set; }
+        public decimal SettledFigure { get; set; }
+        public bool ShowInTicker { get; set; }
+        public bool EPOSPlayer { get; set; }
+        public bool EnableHorses { get; set; }
+        public bool EnableCasino { get; set; }
+        public bool EnableSports { get; set; } = true;
+        public DateTime DateOfBirth { get; set; } = new DateTime(1970 - 1 - 1);
+        public string SecQuestion { get; set; }
+        public string SecAnswer { get; set; }
+        public string SignUpIP { get; set; } = "0.0.0.0";
+        public bool AllowNegTrans { get; set; } = false;
+        public short LastModificationUser { get; set; }
+        public bool HoldBets { get; set; } = false;
+        public byte HoldDelay { get; set; } = 0;
+        public short IdProfileLimits { get; set; } = 1;
+        public bool EnableCards      { get ; set ;} = true;
+                                              
+
+
+
 
         #endregion
 
