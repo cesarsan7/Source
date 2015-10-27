@@ -30,7 +30,7 @@ namespace DGSRestServices.Facade.Class
 
         #region Methods POST 
 
-        public string addAgentFacade(BookModel BookModel)
+        public string addBookFacade(BookModel BookModel)
         {
             responseOperation = new MessageInfo();
             try

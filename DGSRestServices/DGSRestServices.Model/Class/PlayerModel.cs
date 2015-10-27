@@ -98,21 +98,21 @@ namespace DGSRestServices.Model.Class
         public byte HoldDelay { get; set; } = 0;
         public short IdProfileLimits { get; set; } = 1;
         public bool EnableCards      { get ; set ;} = true;
-                                              
 
 
+	
 
 
-        #endregion
+		#endregion
 
 
-        #region Methods 
+		#region Methods 
 
-        /// <summary>
-        /// allow validate a players
-        /// </summary>
-        /// <returns></returns>
-        public bool isvalidPlayer()
+		/// <summary>
+		/// allow validate a players
+		/// </summary>
+		/// <returns></returns>
+		public bool isvalidPlayer()
         {
             StringBuilder sbValidate = new StringBuilder();
 

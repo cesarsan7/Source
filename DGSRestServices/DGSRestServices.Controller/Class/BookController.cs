@@ -41,10 +41,44 @@ namespace DGSRestServices.Controller.Class
 
         #endregion
 
-
         #region Methods CRUD 
 
         #region GET Methods 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idUser"></param>
+        /// <returns></returns>
+        public IEnumerable<BookModel> getBookGetList(short idUser)
+        {
+                        
+            DGSDATAEntities entities = new DGSDATAEntities();
+
+            try
+            {
+                var lstEntity = entities.Book_GetList(idUser);
+                
+                if (lstEntity != null)
+                {
+
+                    var result = (from data in lstEntity
+                                  select new BookModel
+                                  {
+                                      IdBook = data.IdBook,
+                                      Description = data.BookName
+                                  }).ToList();                   
+
+                    return result;
+                }
+                return null;
+            }
+            catch
+            {
+                throw;
+            }
+
+        }
         #endregion  GET Methods 
 
         #region POST Methods 

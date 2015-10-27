@@ -303,8 +303,8 @@
           <Property Name="ASIUserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ASIUserName" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.ATRISKLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.ATRISKLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="ATRISKLOG">
           <Key>
             <PropertyRef Name="IdAtRiskLog" />
@@ -327,8 +327,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.ATRISKLOG' no tiene definida nin
           <Property Name="NewAvailBalance" Type="float" Nullable="false" />
           <Property Name="DateTime" Type="datetime" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.backupPA' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.backupPA' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="backupPA">
           <Key>
             <PropertyRef Name="IdPlayerAccounting" />
@@ -353,8 +353,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.backupPA' no tiene definida ning
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.backupPW' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.backupPW' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="backupPW">
           <Key>
             <PropertyRef Name="IdPlayer" />
@@ -546,8 +546,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.backupPW' no tiene definida ning
           <Property Name="Description" Type="varchar" MaxLength="15" Nullable="false" />
           <Property Name="CashedTicketTemplate" Type="varchar" MaxLength="1000" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.CasinoSolutions_PlayerAccounting' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.CasinoSolutions_PlayerAccounting' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="CasinoSolutions_PlayerAccounting">
           <Key>
             <PropertyRef Name="CasinoGameId" />
@@ -559,8 +559,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.CasinoSolutions_PlayerAccounting
           <Property Name="IdPlayerAccounting" Type="int" />
           <Property Name="LastModification" Type="datetime" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.CASINOTRANSACTIONS' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.CASINOTRANSACTIONS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="CASINOTRANSACTIONS">
           <Key>
             <PropertyRef Name="TransactionId" />
@@ -575,8 +575,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.CASINOTRANSACTIONS' no tiene def
           <Property Name="Mode" Type="char" MaxLength="1" />
           <Property Name="GameDate" Type="datetime" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.CHANGEDWAGERDETAIL' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.CHANGEDWAGERDETAIL' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="CHANGEDWAGERDETAIL">
           <Key>
             <PropertyRef Name="IdChangedWager" />
@@ -827,8 +827,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.CHANGEDWAGERDETAIL' no tiene def
           <Property Name="DGSToteBrokerID" Type="int" />
           <Property Name="DGSTotePassword" Type="varchar" MaxLength="50" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.DISBTEMP' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.DISBTEMP' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="DISBTEMP">
           <Key>
             <PropertyRef Name="IDAgent" />
@@ -1103,8 +1103,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.DISBTEMP' no tiene definida ning
           <Property Name="Online" Type="bit" Nullable="false" />
           <Property Name="Onlocal" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.FREEPLAYOFFICEOPTIONS_BKP' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.FREEPLAYOFFICEOPTIONS_BKP' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="FREEPLAYOFFICEOPTIONS_BKP">
           <Key>
             <PropertyRef Name="IdOffice" />
@@ -1334,8 +1334,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.FREEPLAYOFFICEOPTIONS_BKP' no ti
           <Property Name="LastModification" Type="datetime" />
           <Property Name="LastModificationUser" Type="smallint" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.GAMECHANGE' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.GAMECHANGE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="GAMECHANGE">
           <Key>
             <PropertyRef Name="IdGame" />
@@ -1399,8 +1399,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.GAMECHANGE' no tiene definida ni
           <Property Name="ProcessScores" Type="bit" Nullable="false" />
           <Property Name="ApplyScoresImmediately" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.GAMEIMPORTERSOURCES' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.GAMEIMPORTERSOURCES' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="GAMEIMPORTERSOURCES">
           <Key>
             <PropertyRef Name="ScheduleRefresh" />
@@ -1522,8 +1522,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.GAMEIMPORTERSOURCES' no tiene de
           <Property Name="IdUser" Type="smallint" Nullable="false" />
           <Property Name="IdEvent" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.GAMESYNCGAMES' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.GAMESYNCGAMES' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="GAMESYNCGAMES">
           <Key>
             <PropertyRef Name="IdGame" />
@@ -1910,8 +1910,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.GAMESYNCGAMES' no tiene definida
           <Property Name="SumHomeSpecialWin" Type="money" />
           <Property Name="SumHomeSpecialCount" Type="int" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.GRADEDGAMECHANGE' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.GRADEDGAMECHANGE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="GRADEDGAMECHANGE">
           <Key>
             <PropertyRef Name="IdGame" />
@@ -2421,8 +2421,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.GRADEDGAMECHANGE' no tiene defin
           <Property Name="ConfigurationData" Type="varchar" MaxLength="4000" Nullable="false" />
           <Property Name="Enabled" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.LINESUBSCRIBERDGSINFO' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.LINESUBSCRIBERDGSINFO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="LINESUBSCRIBERDGSINFO">
           <Key>
             <PropertyRef Name="Login" />
@@ -2505,8 +2505,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.LINESUBSCRIBERDGSINFO' no tiene 
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
           <Property Name="LinkType" Type="tinyint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.LINETYPELINKSLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.LINETYPELINKSLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="LINETYPELINKSLOG">
           <Key>
             <PropertyRef Name="IdLineTypeOut" />
@@ -2529,8 +2529,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.LINETYPELINKSLOG' no tiene defin
           <Property Name="PhoneLine" Type="smallint" Nullable="false" />
           <Property Name="IP" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.LINETYPELOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.LINETYPELOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="LINETYPELOG">
           <Key>
             <PropertyRef Name="FieldName" />
@@ -2705,8 +2705,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.LINETYPELOG' no tiene definida n
           <Property Name="Parent" Type="varchar" MaxLength="150" Nullable="false" />
           <Property Name="Tab" Type="tinyint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Agents_Balances' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Migration_Agents_Balances' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Migration_Agents_Balances">
           <Key>
             <PropertyRef Name="acct_id" />
@@ -2715,8 +2715,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Agents_Balances' no ti
           <Property Name="acct_id" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="balance" Type="money" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Balances' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Migration_Balances' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Migration_Balances">
           <Key>
             <PropertyRef Name="Acct_id" />
@@ -2725,8 +2725,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Balances' no tiene def
           <Property Name="Acct_id" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="Balance" Type="money" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_CreditLimit' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Migration_CreditLimit' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Migration_CreditLimit">
           <Key>
             <PropertyRef Name="acct_id" />
@@ -2735,8 +2735,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_CreditLimit' no tiene 
           <Property Name="acct_id" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="creditLimit" Type="money" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Players' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Migration_Players' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Migration_Players">
           <Key>
             <PropertyRef Name="acct_id" />
@@ -2812,8 +2812,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Players' no tiene defi
           <Property Name="my_currentformat" Type="varchar" MaxLength="255" />
           <Property Name="logon_attemps" Type="varchar" MaxLength="255" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Settle' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Migration_Settle' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Migration_Settle">
           <Key>
             <PropertyRef Name="acct_id" />
@@ -2894,8 +2894,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Migration_Settle' no tiene defin
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.oldamount' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.oldamount' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="oldamount">
           <Key>
             <PropertyRef Name="amount" />
@@ -2909,8 +2909,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.oldamount' no tiene definida nin
           <Property Name="IdWagerTracker" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="IdPlayer" Type="int" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.OperationDate' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.OperationDate' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="OperationDate">
           <Key>
             <PropertyRef Name="CurrentOpDate" />
@@ -3143,8 +3143,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.OperationDate' no tiene definida
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERCALLSLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.PLAYERCALLSLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="PLAYERCALLSLOG">
           <Key>
             <PropertyRef Name="IdCall" />
@@ -3202,8 +3202,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERCALLSLOG' no tiene definid
           <Property Name="CCDescription" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="CCType" Type="char" MaxLength="1" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERDELETED' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.PLAYERDELETED' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="PLAYERDELETED">
           <Key>
             <PropertyRef Name="Idplayer" />
@@ -3252,8 +3252,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERDELETED' no tiene definida
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERID' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.PLAYERID' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="PLAYERID">
           <Key>
             <PropertyRef Name="IdPlayerId" />
@@ -3489,8 +3489,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERID' no tiene definida ning
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERPROFILEGAMETYPELOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.PLAYERPROFILEGAMETYPELOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="PLAYERPROFILEGAMETYPELOG">
           <Key>
             <PropertyRef Name="IdPlayerProfileGameTypeLog" />
@@ -3676,8 +3676,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERPROFILEGAMETYPELOG' no tie
           <Property Name="PhoneLine" Type="smallint" Nullable="false" />
           <Property Name="IP" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERPROFILEPARLAYLIMITLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.PLAYERPROFILEPARLAYLIMITLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="PLAYERPROFILEPARLAYLIMITLOG">
           <Key>
             <PropertyRef Name="IdPlayerProfileParlayLimitLog" />
@@ -3814,8 +3814,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.PLAYERPROFILEPARLAYLIMITLOG' no 
           <Property Name="NumCorrect" Type="tinyint" Nullable="false" />
           <Property Name="Payoff" Type="money" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Products' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Products' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Products">
           <Key>
             <PropertyRef Name="ProductCode" />
@@ -4050,8 +4050,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Products' no tiene definida ning
           <Property Name="IdUser" Type="smallint" Nullable="false" />
           <Property Name="OpDate" Type="datetime" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Reports' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Reports' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Reports">
           <Key>
             <PropertyRef Name="repId" />
@@ -4177,8 +4177,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Reports' no tiene definida ningu
           <Property Name="FileName" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="ProcessedDateTime" Type="datetime" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMBANNEDIPS' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMBANNEDIPS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMBANNEDIPS">
           <Key>
             <PropertyRef Name="IP" />
@@ -4193,8 +4193,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMBANNEDIPS' no tiene defini
           <Property Name="BetRadarID" Type="int" Nullable="false" />
           <Property Name="IdGame" Type="int" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMBETRADARCONFIG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMBETRADARCONFIG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMBETRADARCONFIG">
           <Key>
             <PropertyRef Name="RefreshRate" />
@@ -4247,8 +4247,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMBETRADARCONFIG' no tiene d
           <Property Name="Online" Type="bit" Nullable="false" />
           <Property Name="Onlocal" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMBONUSSETTING' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMBONUSSETTING' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMBONUSSETTING">
           <Key>
             <PropertyRef Name="MaxWager" />
@@ -4345,8 +4345,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMBONUSSETTING' no tiene def
           <Property Name="Play" Type="int" Nullable="false" />
           <Property Name="Type" Type="char" MaxLength="1" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMDBSLINES' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMDBSLINES' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMDBSLINES">
           <Key>
             <PropertyRef Name="IdLineType" />
@@ -4372,8 +4372,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMDBSLINES' no tiene definid
           <Property Name="Page" Type="varchar" MaxLength="200" Nullable="false" />
           <Property Name="Message" Type="varchar" MaxLength="200" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMDISTRIBUTIONINFO' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMDISTRIBUTIONINFO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMDISTRIBUTIONINFO">
           <Key>
             <PropertyRef Name="StartDate" />
@@ -4404,8 +4404,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMDISTRIBUTIONINFO' no tiene
           <Property Name="Data4" Type="money" />
           <Property Name="Type" Type="tinyint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMERRORLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMERRORLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMERRORLOG">
           <Key>
             <PropertyRef Name="ErrorMessage" />
@@ -4477,8 +4477,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMERRORLOG' no tiene definid
           <Property Name="Points" Type="real" Nullable="false" />
           <Property Name="Odds" Type="int" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMMOVERSETTINGS' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMMOVERSETTINGS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMMOVERSETTINGS">
           <Key>
             <PropertyRef Name="RefreshRate" />
@@ -4493,8 +4493,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMMOVERSETTINGS' no tiene de
           <Property Name="DecimalFormat" Type="real" Nullable="false" />
           <Property Name="FractionalFormat" Type="char" MaxLength="5" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMPREFERENCESCLIENT' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMPREFERENCESCLIENT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMPREFERENCESCLIENT">
           <Key>
             <PropertyRef Name="DisableCreditFeatures" />
@@ -4605,8 +4605,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMPREFERENCESCLIENT' no tien
           <Property Name="PhoneLine" Type="smallint" Nullable="false" />
           <Property Name="IP" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMPREFERENCESMANAGER' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMPREFERENCESMANAGER' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMPREFERENCESMANAGER">
           <Key>
             <PropertyRef Name="ActionColumnDisplay" />
@@ -4736,8 +4736,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMPREFERENCESMANAGER' no tie
           <Property Name="Step" Type="varchar" MaxLength="50" />
           <Property Name="TotalTime" Type="datetime" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMRECORDINGLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMRECORDINGLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMRECORDINGLOG">
           <Key>
             <PropertyRef Name="PhoneLine" />
@@ -4751,8 +4751,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMRECORDINGLOG' no tiene def
           <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="ErrorDate" Type="datetime" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMVERSIONINFO' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.SYSTEMVERSIONINFO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="SYSTEMVERSIONINFO">
           <Key>
             <PropertyRef Name="DbVersion" />
@@ -4784,8 +4784,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.SYSTEMVERSIONINFO' no tiene defi
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.TaceoAgentCommInfo' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.TaceoAgentCommInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TaceoAgentCommInfo">
           <Key>
             <PropertyRef Name="IdAgent" />
@@ -5896,8 +5896,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.TaceoAgentCommInfo' no tiene def
           <Property Name="DateTimeActivated" Type="datetime" />
           <Property Name="IpAddress" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.TaceoSignUpIpRestriction' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.TaceoSignUpIpRestriction' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TaceoSignUpIpRestriction">
           <Key>
             <PropertyRef Name="IpAddress" />
@@ -6394,8 +6394,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.TaceoSignUpIpRestriction' no tie
           <Property Name="BtnCaption" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="BtnIndex" Type="tinyint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.tempbackup' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.tempbackup' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="tempbackup">
           <Key>
             <PropertyRef Name="IdPlayer" />
@@ -6662,8 +6662,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.tempbackup' no tiene definida ni
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.TIPEXCONFIG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.TIPEXCONFIG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TIPEXCONFIG">
           <Key>
             <PropertyRef Name="Username" />
@@ -6715,8 +6715,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.TIPEXCONFIG' no tiene definida n
           <Property Name="LastModification" Type="datetime" Nullable="false" />
           <Property Name="LastModificationUser" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.Tmp_USERS' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.Tmp_USERS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Tmp_USERS">
           <Key>
             <PropertyRef Name="IdUser" />
@@ -6781,8 +6781,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.Tmp_USERS' no tiene definida nin
           <Property Name="TrackType" Type="tinyint" Nullable="false" />
           <Property Name="UTrackCode" Type="varchar" MaxLength="3" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.UNGRADEDWAGERDETAIL' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.UNGRADEDWAGERDETAIL' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="UNGRADEDWAGERDETAIL">
           <Key>
             <PropertyRef Name="IdWagerDetail" />
@@ -6841,8 +6841,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UNGRADEDWAGERDETAIL' no tiene de
           <Property Name="IdEvent" Type="smallint" Nullable="false" />
           <Property Name="LineFromAgent" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.UNGRADEDWAGERHEADER' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.UNGRADEDWAGERHEADER' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="UNGRADEDWAGERHEADER">
           <Key>
             <PropertyRef Name="IdWager" />
@@ -6950,8 +6950,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UNGRADEDWAGERHEADER' no tiene de
           <Property Name="LoginTime" Type="datetime" Nullable="false" />
           <Property Name="IP" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.USERLOGONSLOG' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.USERLOGONSLOG' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="USERLOGONSLOG">
           <Key>
             <PropertyRef Name="IdUser" />
@@ -7088,8 +7088,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.USERLOGONSLOG' no tiene definida
           <Property Name="IdUser" Type="smallint" Nullable="false" />
           <Property Name="IdBook" Type="smallint" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.USERSDELETED' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.USERSDELETED' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="USERSDELETED">
           <Key>
             <PropertyRef Name="IdUser" />
@@ -7136,8 +7136,8 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.USERSDELETED' no tiene definida 
           <Property Name="PhoneLine" Type="smallint" Nullable="false" />
           <Property Name="IP" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DGSDATA.dbo.UToteTemp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="UToteTemp">
           <Key>
             <PropertyRef Name="Description" />
@@ -18755,16 +18755,16 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
           </FunctionImport>
           <FunctionImport Name="Book_GetAllList" ReturnType="Collection(DGSDATAModel.Book_GetAllList_Result)" />
           <FunctionImport Name="Book_GetList" ReturnType="Collection(DGSDATAModel.Book_GetList_Result)">
-            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Book_GetListInfo" ReturnType="Collection(DGSDATAModel.Book_GetListInfo_Result)">
-            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Book_GetPlayerProfilesList" ReturnType="Collection(DGSDATAModel.Book_GetPlayerProfilesList_Result)">
-            <Parameter Name="prmIdProfile" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdProfile" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Book_GetUsersList" ReturnType="Collection(DGSDATAModel.Book_GetUsersList_Result)">
-            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Book_Insert">
             <Parameter Name="prmName" Mode="In" Type="String" />
@@ -18796,10 +18796,10 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Player_GetBlackBook" ReturnType="Collection(Int32)">
-            <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="Player_GetBlackBookList" ReturnType="Collection(DGSDATAModel.Player_GetBlackBookList_Result)">
-            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Player_GetInfo" ReturnType="Collection(DGSDATAModel.Player_GetInfo_Result)">
             <Parameter Name="prmPlayer" Mode="In" Type="String" />
@@ -18828,10 +18828,10 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="Player_GetNotes" ReturnType="Collection(DGSDATAModel.Player_GetNotes_Result)">
-            <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="Player_GetStatistics" ReturnType="Collection(DGSDATAModel.Player_GetStatistics_Result)">
-            <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="Player_GetStep" ReturnType="Collection(DGSDATAModel.Player_GetStep_Result)">
             <Parameter Name="prmPlayer" Mode="In" Type="String" />
@@ -19183,7 +19183,7 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerClaims_GetInfo" ReturnType="Collection(DGSDATAModel.PlayerClaims_GetInfo_Result)">
-            <Parameter Name="prmIdClaim" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdClaim" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="PlayerClaims_GetList">
             <Parameter Name="prmIdOffice" Mode="In" Type="Int16" />
@@ -19250,7 +19250,7 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerHoldSettings_GetList" ReturnType="Collection(DGSDATAModel.PlayerHoldSettings_GetList_Result)">
-            <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="PlayerHoldSettings_Insert">
             <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
@@ -19406,10 +19406,10 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerMessages_GetInfo" ReturnType="Collection(DGSDATAModel.PlayerMessages_GetInfo_Result)">
-            <Parameter Name="prmIdPlayerMessage" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdPlayerMessage" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="PlayerMessages_GetList" ReturnType="Collection(DGSDATAModel.PlayerMessages_GetList_Result)">
-            <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
+          <Parameter Name="prmIdPlayer" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="PlayerMessages_GetPlayers" ReturnType="Collection(DGSDATAModel.PlayerMessages_GetPlayers_Result)">
             <Parameter Name="prmOrderBy" Mode="In" Type="Byte" />
@@ -19458,16 +19458,16 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerProfile_GetInfo" ReturnType="Collection(DGSDATAModel.PlayerProfile_GetInfo_Result)">
-            <Parameter Name="prmIdProfile" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdProfile" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerProfile_GetList" ReturnType="Collection(DGSDATAModel.PlayerProfile_GetList_Result)">
-            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerProfile_GetListByBook" ReturnType="Collection(DGSDATAModel.PlayerProfile_GetListByBook_Result)">
-            <Parameter Name="prmIdBook" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdBook" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerProfile_GetListFiltered" ReturnType="Collection(DGSDATAModel.PlayerProfile_GetListFiltered_Result)">
-            <Parameter Name="prmFilter" Mode="In" Type="String" />
+          <Parameter Name="prmFilter" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="PlayerProfile_Insert">
             <Parameter Name="prmName" Mode="In" Type="String" />
@@ -19733,7 +19733,7 @@ advertencia 6002: La tabla o vista 'DGSDATA.dbo.UToteTemp' no tiene definida nin
             <Parameter Name="prmIdBook" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="PlayerProfileBook_DeleteAll">
-            <Parameter Name="prmIdProfile" Mode="In" Type="Int16" />
+          <Parameter Name="prmIdProfile" Mode="In" Type="Int16" />
           </FunctionImport>
           <FunctionImport Name="UsersBook_Insert">
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dbf02584-6dc9-431f-a792-6c756b5ebf51" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:16687/DGSWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DGSWCFService.xsd" MetadataType="Schema" ID="e21ba362-f9a5-46fc-96a2-5dfcce9e598e" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DGSWCFService1.xsd" MetadataType="Schema" ID="50de7395-9f18-4566-a755-c874056ba1af" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DGSWCFService.wsdl" MetadataType="Wsdl" ID="7d744a72-cd9e-4867-ab44-67ade5717080" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?wsdl" />
+    <MetadataFile FileName="DGSWCFService2.xsd" MetadataType="Schema" ID="834b9474-a695-4c47-a82b-fbf690dc5bc2" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DGSWCFService.disco" MetadataType="Disco" ID="8fdb1b79-c86d-4b77-9284-a7aa07962103" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

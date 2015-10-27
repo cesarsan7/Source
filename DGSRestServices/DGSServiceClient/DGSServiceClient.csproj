@@ -74,32 +74,21 @@
     <None Include="Service References\DGSService\DGSWCFService1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\DGSService\DGSWCFService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\DGSService\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\DGSService\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\DGSService\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\DGSService\DGSWCFService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\DGSService\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DGSRestServices.Common\DGSRestServices.Common.csproj">
       <Project>{3bc3c979-936d-4131-a006-2867320b1e4a}</Project>
       <Name>DGSRestServices.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DGSRestServices.Data\DGSRestServices.Data.csproj">
+      <Project>{364c1449-aed2-464b-a723-08cf927e1a5c}</Project>
+      <Name>DGSRestServices.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\DGSRestServices.Facade\DGSRestServices.Facade.csproj">
       <Project>{e6773333-2d61-481d-bbc7-20e4a08cf109}</Project>
@@ -113,6 +102,24 @@
       <Project>{72a57905-5630-4bdd-9ba5-80da249e9b58}</Project>
       <Name>DGSRestServices.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\DGSService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DGSService\DGSWCFService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DGSService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DGSService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DGSService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

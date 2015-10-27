@@ -116,6 +116,12 @@ namespace DGSServiceClient.DGSService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/deleteAgentService", ReplyAction="http://tempuri.org/IDGSWCFService/deleteAgentServiceResponse")]
         System.Threading.Tasks.Task<string> deleteAgentServiceAsync(string idAgent, string idUser);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/addBookService", ReplyAction="http://tempuri.org/IDGSWCFService/addBookServiceResponse")]
+        string addBookService(DGSRestServices.Model.Class.BookModel bookModel);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/addBookService", ReplyAction="http://tempuri.org/IDGSWCFService/addBookServiceResponse")]
+        System.Threading.Tasks.Task<string> addBookServiceAsync(DGSRestServices.Model.Class.BookModel bookModel);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -279,6 +285,14 @@ namespace DGSServiceClient.DGSService {
         
         public System.Threading.Tasks.Task<string> deleteAgentServiceAsync(string idAgent, string idUser) {
             return base.Channel.deleteAgentServiceAsync(idAgent, idUser);
+        }
+        
+        public string addBookService(DGSRestServices.Model.Class.BookModel bookModel) {
+            return base.Channel.addBookService(bookModel);
+        }
+        
+        public System.Threading.Tasks.Task<string> addBookServiceAsync(DGSRestServices.Model.Class.BookModel bookModel) {
+            return base.Channel.addBookServiceAsync(bookModel);
         }
     }
 }

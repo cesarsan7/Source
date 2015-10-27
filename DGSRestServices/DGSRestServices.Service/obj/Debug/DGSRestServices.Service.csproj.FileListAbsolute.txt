@@ -107,28 +107,6 @@ C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.S
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
 C:\Users\cessangu.CARVAJAL\Source\Repos\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll.config
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Data.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Facade.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Model.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.SqlServer.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\log4net.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Data.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Facade.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Model.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.SqlServer.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.pdb
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\log4net.xml
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
-C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb
 D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll.config
 D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll
 D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.pdb
@@ -151,3 +129,25 @@ D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestService
 D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
 D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
 D:\Proyectos\Casino  - Web Services\Codigo Fuente\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll.config
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Service.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Data.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Facade.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Model.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\log4net.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Data.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Facade.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Model.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Controller.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\DGSRestServices.Common.pdb
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\bin\log4net.xml
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.csprojResolveAssemblyReference.cache
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.dll
+C:\Users\cessangu\Google Drive\Source\DGSRestServices\DGSRestServices.Service\obj\Debug\DGSRestServices.Service.pdb

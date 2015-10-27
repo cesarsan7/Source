@@ -72,15 +72,23 @@
   <ItemGroup>
     <Content Include="DataMessage.xml" />
     <Content Include="DGSWCFService.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\AgentService.cs" />
+    <Compile Include="Class\BookService.cs" />
+    <Compile Include="Class\PlayerService.cs" />
+    <Compile Include="Class\UserService.cs" />
     <Compile Include="DGSWCFService.svc.cs">
       <DependentUpon>DGSWCFService.svc</DependentUpon>
     </Compile>
     <Compile Include="IDGSWCFService.cs" />
     <Compile Include="Interface\IAgentService.cs" />
+    <Compile Include="Interface\IBookService.cs" />
+    <Compile Include="Interface\IPlayerService.cs" />
+    <Compile Include="Interface\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

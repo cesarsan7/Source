@@ -27,8 +27,7 @@ namespace DGSRestServices.Service
 
         #endregion
 
-
-
+        
         #region  Agent Methods
 
         #region Methods PUT
