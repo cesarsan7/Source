@@ -1506,6 +1506,15 @@
     <Compile Include="USERSLOG.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Users_GetInfo_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users_GetList_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users_GetLogin_Result.cs">
+      <DependentUpon>DGSDATAModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="UToteTemp.cs">
       <DependentUpon>DGSDATAModel.tt</DependentUpon>
     </Compile>

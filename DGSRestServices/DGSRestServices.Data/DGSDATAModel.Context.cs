@@ -4849,5 +4849,120 @@ namespace DGSRestServices.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("UsersBook_Insert", prmIdUserParameter, prmIdBookParameter);
         }
+    
+        public virtual int Users_Delete(Nullable<short> prmUserId, Nullable<short> prmIdUser)
+        {
+            var prmUserIdParameter = prmUserId.HasValue ?
+                new ObjectParameter("prmUserId", prmUserId) :
+                new ObjectParameter("prmUserId", typeof(short));
+    
+            var prmIdUserParameter = prmIdUser.HasValue ?
+                new ObjectParameter("prmIdUser", prmIdUser) :
+                new ObjectParameter("prmIdUser", typeof(short));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Users_Delete", prmUserIdParameter, prmIdUserParameter);
+        }
+    
+        public virtual int Users_GetID(string prmLoginName, ObjectParameter prmIdUser)
+        {
+            var prmLoginNameParameter = prmLoginName != null ?
+                new ObjectParameter("prmLoginName", prmLoginName) :
+                new ObjectParameter("prmLoginName", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Users_GetID", prmLoginNameParameter, prmIdUser);
+        }
+    
+        public virtual ObjectResult<Users_GetInfo_Result> Users_GetInfo(Nullable<short> prmIdUser)
+        {
+            var prmIdUserParameter = prmIdUser.HasValue ?
+                new ObjectParameter("prmIdUser", prmIdUser) :
+                new ObjectParameter("prmIdUser", typeof(short));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Users_GetInfo_Result>("Users_GetInfo", prmIdUserParameter);
+        }
+    
+        public virtual ObjectResult<Users_GetList_Result> Users_GetList()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Users_GetList_Result>("Users_GetList");
+        }
+    
+        public virtual ObjectResult<Users_GetLogin_Result> Users_GetLogin(string prmLoginName)
+        {
+            var prmLoginNameParameter = prmLoginName != null ?
+                new ObjectParameter("prmLoginName", prmLoginName) :
+                new ObjectParameter("prmLoginName", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Users_GetLogin_Result>("Users_GetLogin", prmLoginNameParameter);
+        }
+    
+        public virtual int Users_Insert(Nullable<short> prmIdUserProfile, Nullable<int> prmIdDepartment, string prmLoginName, string prmName, string prmPassword, Nullable<bool> prmStatus, Nullable<short> prmIdUser)
+        {
+            var prmIdUserProfileParameter = prmIdUserProfile.HasValue ?
+                new ObjectParameter("prmIdUserProfile", prmIdUserProfile) :
+                new ObjectParameter("prmIdUserProfile", typeof(short));
+    
+            var prmIdDepartmentParameter = prmIdDepartment.HasValue ?
+                new ObjectParameter("prmIdDepartment", prmIdDepartment) :
+                new ObjectParameter("prmIdDepartment", typeof(int));
+    
+            var prmLoginNameParameter = prmLoginName != null ?
+                new ObjectParameter("prmLoginName", prmLoginName) :
+                new ObjectParameter("prmLoginName", typeof(string));
+    
+            var prmNameParameter = prmName != null ?
+                new ObjectParameter("prmName", prmName) :
+                new ObjectParameter("prmName", typeof(string));
+    
+            var prmPasswordParameter = prmPassword != null ?
+                new ObjectParameter("prmPassword", prmPassword) :
+                new ObjectParameter("prmPassword", typeof(string));
+    
+            var prmStatusParameter = prmStatus.HasValue ?
+                new ObjectParameter("prmStatus", prmStatus) :
+                new ObjectParameter("prmStatus", typeof(bool));
+    
+            var prmIdUserParameter = prmIdUser.HasValue ?
+                new ObjectParameter("prmIdUser", prmIdUser) :
+                new ObjectParameter("prmIdUser", typeof(short));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Users_Insert", prmIdUserProfileParameter, prmIdDepartmentParameter, prmLoginNameParameter, prmNameParameter, prmPasswordParameter, prmStatusParameter, prmIdUserParameter);
+        }
+    
+        public virtual int Users_Update(Nullable<short> prmUserId, Nullable<short> prmIdUserProfile, Nullable<int> prmIdDepartment, string prmLoginName, string prmName, string prmPassword, Nullable<bool> prmStatus, Nullable<short> prmIdUser)
+        {
+            var prmUserIdParameter = prmUserId.HasValue ?
+                new ObjectParameter("prmUserId", prmUserId) :
+                new ObjectParameter("prmUserId", typeof(short));
+    
+            var prmIdUserProfileParameter = prmIdUserProfile.HasValue ?
+                new ObjectParameter("prmIdUserProfile", prmIdUserProfile) :
+                new ObjectParameter("prmIdUserProfile", typeof(short));
+    
+            var prmIdDepartmentParameter = prmIdDepartment.HasValue ?
+                new ObjectParameter("prmIdDepartment", prmIdDepartment) :
+                new ObjectParameter("prmIdDepartment", typeof(int));
+    
+            var prmLoginNameParameter = prmLoginName != null ?
+                new ObjectParameter("prmLoginName", prmLoginName) :
+                new ObjectParameter("prmLoginName", typeof(string));
+    
+            var prmNameParameter = prmName != null ?
+                new ObjectParameter("prmName", prmName) :
+                new ObjectParameter("prmName", typeof(string));
+    
+            var prmPasswordParameter = prmPassword != null ?
+                new ObjectParameter("prmPassword", prmPassword) :
+                new ObjectParameter("prmPassword", typeof(string));
+    
+            var prmStatusParameter = prmStatus.HasValue ?
+                new ObjectParameter("prmStatus", prmStatus) :
+                new ObjectParameter("prmStatus", typeof(bool));
+    
+            var prmIdUserParameter = prmIdUser.HasValue ?
+                new ObjectParameter("prmIdUser", prmIdUser) :
+                new ObjectParameter("prmIdUser", typeof(short));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Users_Update", prmUserIdParameter, prmIdUserProfileParameter, prmIdDepartmentParameter, prmLoginNameParameter, prmNameParameter, prmPasswordParameter, prmStatusParameter, prmIdUserParameter);
+        }
     }
 }

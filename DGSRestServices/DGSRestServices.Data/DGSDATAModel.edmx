@@ -8951,6 +8951,40 @@ warning 6002: The table/view 'DGSDATA.dbo.UToteTemp' does not have a primary key
           <Parameter Name="prmIdProfile" Type="smallint" Mode="In" />
           <Parameter Name="prmIdBook" Type="smallint" Mode="In" />
         </Function>
+        <Function Name="Users_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prmUserId" Type="smallint" Mode="In" />
+          <Parameter Name="prmIdUser" Type="smallint" Mode="In" />
+        </Function>
+        <Function Name="Users_GetID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prmLoginName" Type="varchar" Mode="In" />
+          <Parameter Name="prmIdUser" Type="smallint" Mode="InOut" />
+        </Function>
+        <Function Name="Users_GetInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prmIdUser" Type="smallint" Mode="In" />
+        </Function>
+        <Function Name="Users_GetList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="Users_GetLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prmLoginName" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="Users_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prmIdUserProfile" Type="smallint" Mode="In" />
+          <Parameter Name="prmIdDepartment" Type="int" Mode="In" />
+          <Parameter Name="prmLoginName" Type="varchar" Mode="In" />
+          <Parameter Name="prmName" Type="varchar" Mode="In" />
+          <Parameter Name="prmPassword" Type="varchar" Mode="In" />
+          <Parameter Name="prmStatus" Type="bit" Mode="In" />
+          <Parameter Name="prmIdUser" Type="smallint" Mode="In" />
+        </Function>
+        <Function Name="Users_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prmUserId" Type="smallint" Mode="In" />
+          <Parameter Name="prmIdUserProfile" Type="smallint" Mode="In" />
+          <Parameter Name="prmIdDepartment" Type="int" Mode="In" />
+          <Parameter Name="prmLoginName" Type="varchar" Mode="In" />
+          <Parameter Name="prmName" Type="varchar" Mode="In" />
+          <Parameter Name="prmPassword" Type="varchar" Mode="In" />
+          <Parameter Name="prmStatus" Type="bit" Mode="In" />
+          <Parameter Name="prmIdUser" Type="smallint" Mode="In" />
+        </Function>
         <Function Name="UsersBook_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="prmIdUser" Type="smallint" Mode="In" />
           <Parameter Name="prmIdBook" Type="smallint" Mode="In" />
@@ -19739,6 +19773,40 @@ warning 6002: The table/view 'DGSDATA.dbo.UToteTemp' does not have a primary key
             <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
             <Parameter Name="prmIdBook" Mode="In" Type="Int16" />
           </FunctionImport>
+          <FunctionImport Name="Users_Delete">
+            <Parameter Name="prmUserId" Mode="In" Type="Int16" />
+            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          </FunctionImport>
+          <FunctionImport Name="Users_GetID">
+            <Parameter Name="prmLoginName" Mode="In" Type="String" />
+            <Parameter Name="prmIdUser" Mode="InOut" Type="Int16" />
+          </FunctionImport>
+          <FunctionImport Name="Users_GetInfo" ReturnType="Collection(DGSDATAModel.Users_GetInfo_Result)">
+          <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          </FunctionImport>
+          <FunctionImport Name="Users_GetList" ReturnType="Collection(DGSDATAModel.Users_GetList_Result)" />
+          <FunctionImport Name="Users_GetLogin" ReturnType="Collection(DGSDATAModel.Users_GetLogin_Result)">
+          <Parameter Name="prmLoginName" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Users_Insert">
+            <Parameter Name="prmIdUserProfile" Mode="In" Type="Int16" />
+            <Parameter Name="prmIdDepartment" Mode="In" Type="Int32" />
+            <Parameter Name="prmLoginName" Mode="In" Type="String" />
+            <Parameter Name="prmName" Mode="In" Type="String" />
+            <Parameter Name="prmPassword" Mode="In" Type="String" />
+            <Parameter Name="prmStatus" Mode="In" Type="Boolean" />
+            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          </FunctionImport>
+          <FunctionImport Name="Users_Update">
+            <Parameter Name="prmUserId" Mode="In" Type="Int16" />
+            <Parameter Name="prmIdUserProfile" Mode="In" Type="Int16" />
+            <Parameter Name="prmIdDepartment" Mode="In" Type="Int32" />
+            <Parameter Name="prmLoginName" Mode="In" Type="String" />
+            <Parameter Name="prmName" Mode="In" Type="String" />
+            <Parameter Name="prmPassword" Mode="In" Type="String" />
+            <Parameter Name="prmStatus" Mode="In" Type="Boolean" />
+            <Parameter Name="prmIdUser" Mode="In" Type="Int16" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="Agent_FindList_Result">
           <Property Type="Int32" Name="IdAgent" Nullable="false" />
@@ -20236,6 +20304,43 @@ warning 6002: The table/view 'DGSDATA.dbo.UToteTemp' does not have a primary key
         <ComplexType Name="PlayerProfile_GetListFiltered_Result">
           <Property Type="Int16" Name="IdProfile" Nullable="false" />
           <Property Type="String" Name="ProfileName" Nullable="false" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="Users_GetInfo_Result">
+          <Property Type="Int16" Name="IdUser" Nullable="false" />
+          <Property Type="Int16" Name="IdUserProfile" Nullable="false" />
+          <Property Type="String" Name="LoginName" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="255" />
+          <Property Type="DateTime" Name="LastLogin" Nullable="true" Precision="23" />
+          <Property Type="Boolean" Name="Status" Nullable="false" />
+          <Property Type="DateTime" Name="LastModification" Nullable="false" Precision="23" />
+          <Property Type="Int16" Name="LastModificationUser" Nullable="false" />
+          <Property Type="String" Name="ProfileName" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="DepartmentDesc" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="Users_GetList_Result">
+          <Property Type="Int16" Name="IdUser" Nullable="false" />
+          <Property Type="Int16" Name="IdUserProfile" Nullable="false" />
+          <Property Type="Int32" Name="IdDepartment" Nullable="false" />
+          <Property Type="String" Name="LoginName" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="255" />
+          <Property Type="DateTime" Name="LastLogin" Nullable="true" Precision="23" />
+          <Property Type="Boolean" Name="Status" Nullable="false" />
+          <Property Type="DateTime" Name="LastModification" Nullable="false" Precision="23" />
+          <Property Type="Int16" Name="LastModificationUser" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="Users_GetLogin_Result">
+          <Property Type="Int16" Name="IdUser" Nullable="false" />
+          <Property Type="Int16" Name="IdUserProfile" Nullable="false" />
+          <Property Type="String" Name="LoginName" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="255" />
+          <Property Type="DateTime" Name="LastLogin" Nullable="true" Precision="23" />
+          <Property Type="Boolean" Name="Status" Nullable="false" />
+          <Property Type="DateTime" Name="LastModification" Nullable="false" Precision="23" />
+          <Property Type="Int16" Name="LastModificationUser" Nullable="false" />
+          <Property Type="Boolean" Name="CallRecording" Nullable="false" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -28265,6 +28370,59 @@ warning 6002: The table/view 'DGSDATA.dbo.UToteTemp' does not have a primary key
           <FunctionImportMapping FunctionImportName="PlayerProfileBook_Delete" FunctionName="DGSDATAModel.Store.PlayerProfileBook_Delete" />
           <FunctionImportMapping FunctionImportName="PlayerProfileBook_DeleteAll" FunctionName="DGSDATAModel.Store.PlayerProfileBook_DeleteAll" />
           <FunctionImportMapping FunctionImportName="UsersBook_Insert" FunctionName="DGSDATAModel.Store.UsersBook_Insert" />
+          <FunctionImportMapping FunctionImportName="Users_Delete" FunctionName="DGSDATAModel.Store.Users_Delete" />
+          <FunctionImportMapping FunctionImportName="Users_GetID" FunctionName="DGSDATAModel.Store.Users_GetID" />
+          <FunctionImportMapping FunctionImportName="Users_GetInfo" FunctionName="DGSDATAModel.Store.Users_GetInfo">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DGSDATAModel.Users_GetInfo_Result">
+                <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+                <ScalarProperty Name="IdUserProfile" ColumnName="IdUserProfile" />
+                <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="LastModification" ColumnName="LastModification" />
+                <ScalarProperty Name="LastModificationUser" ColumnName="LastModificationUser" />
+                <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+                <ScalarProperty Name="DepartmentDesc" ColumnName="DepartmentDesc" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Users_GetList" FunctionName="DGSDATAModel.Store.Users_GetList">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DGSDATAModel.Users_GetList_Result">
+                <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+                <ScalarProperty Name="IdUserProfile" ColumnName="IdUserProfile" />
+                <ScalarProperty Name="IdDepartment" ColumnName="IdDepartment" />
+                <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="LastModification" ColumnName="LastModification" />
+                <ScalarProperty Name="LastModificationUser" ColumnName="LastModificationUser" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Users_GetLogin" FunctionName="DGSDATAModel.Store.Users_GetLogin">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DGSDATAModel.Users_GetLogin_Result">
+                <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+                <ScalarProperty Name="IdUserProfile" ColumnName="IdUserProfile" />
+                <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="LastModification" ColumnName="LastModification" />
+                <ScalarProperty Name="LastModificationUser" ColumnName="LastModificationUser" />
+                <ScalarProperty Name="CallRecording" ColumnName="CallRecording" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Users_Insert" FunctionName="DGSDATAModel.Store.Users_Insert" />
+          <FunctionImportMapping FunctionImportName="Users_Update" FunctionName="DGSDATAModel.Store.Users_Update" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
