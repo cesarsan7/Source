@@ -59,53 +59,53 @@ namespace DGSServiceClient
             objDGSServiceClient.addAgentService(objModel);
 
             BookFacade BookFacade1 = new BookFacade();
-            BookFacade1.addBookFacade(objModelBook);
+			//BookFacade1.addBookFacade(objModelBook);
 
 
 
-            //const string WEBSERVICE_URL = "http://localhost:16687/DGSWCFService.svc/addBook";
+			//const string WEBSERVICE_URL = "http://localhost:16688/DGSWCFService.svc/addBook";
 
-            //string jsonData = "{ \"key1\" : \"value1\", \"key2\":\"value2\"  }";
-            //try
-            //{
-            //    var webRequest = System.Net.WebRequest.Create(WEBSERVICE_URL);
-            //    if (webRequest != null)
-            //    {
-            //        webRequest.Method = "POST";
-            //        webRequest.Timeout = 20000;
-            //        webRequest.ContentType = "application/json";
+			//string jsonData = "{ \"key1\" : \"value1\", \"key2\":\"value2\"  }";
+			//try
+			//{
+			//	var webRequest = System.Net.WebRequest.Create(WEBSERVICE_URL);
+			//	if (webRequest != null)
+			//	{
+			//		webRequest.Method = "POST";
+			//		webRequest.Timeout = 20000;
+			//		webRequest.ContentType = "application/json";
 
-            //        using (System.IO.Stream s = webRequest.GetRequestStream())
-            //        {
-            //            using (System.IO.StreamWriter sw = new System.IO.StreamWriter(s))
-            //                sw.Write(jsonData);
-            //        }
+			//		using (System.IO.Stream s = webRequest.GetRequestStream())
+			//		{
+			//			using (System.IO.StreamWriter sw = new System.IO.StreamWriter(s))
+			//				sw.Write(jsonData);
+			//		}
 
-            //        using (System.IO.Stream s = webRequest.GetResponse().GetResponseStream())
-            //        {
-            //            using (System.IO.StreamReader sr = new System.IO.StreamReader(s))
-            //            {
-            //                var jsonResponse = sr.ReadToEnd();
-            //                System.Diagnostics.Debug.WriteLine(String.Format("Response: {0}", jsonResponse));
-            //            }
-            //        }
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    System.Diagnostics.Debug.WriteLine(ex.ToString());
-            //}
-
-
+			//		using (System.IO.Stream s = webRequest.GetResponse().GetResponseStream())
+			//		{
+			//			using (System.IO.StreamReader sr = new System.IO.StreamReader(s))
+			//			{
+			//				var jsonResponse = sr.ReadToEnd();
+			//				System.Diagnostics.Debug.WriteLine(String.Format("Response: {0}", jsonResponse));
+			//			}
+			//		}
+			//	}
+			//}
+			//catch (Exception ex)
+			//{
+			//	System.Diagnostics.Debug.WriteLine(ex.ToString());
+			//}
 
 
 
 
-            //DGSServiceClient.DGSService.DGSWCFServiceClient objDGSServiceClient = new DGSService.DGSWCFServiceClient();
 
-            //var result = objDGSServiceClient.agentGetInfoService("LUFKIN", "2");
 
-        }
+			//DGSServiceClient.DGSService.DGSWCFServiceClient objDGSServiceClient = new DGSService.DGSWCFServiceClient();
+
+			//var result = objDGSServiceClient.agentGetInfoService("LUFKIN", "2");
+
+		}
     }
 
    

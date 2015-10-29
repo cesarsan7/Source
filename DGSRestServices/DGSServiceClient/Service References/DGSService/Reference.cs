@@ -122,6 +122,12 @@ namespace DGSServiceClient.DGSService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/addBookService", ReplyAction="http://tempuri.org/IDGSWCFService/addBookServiceResponse")]
         System.Threading.Tasks.Task<string> addBookServiceAsync(DGSRestServices.Model.Class.BookModel bookModel);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/usersGetIDService", ReplyAction="http://tempuri.org/IDGSWCFService/usersGetIDServiceResponse")]
+        string usersGetIDService(string loginName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDGSWCFService/usersGetIDService", ReplyAction="http://tempuri.org/IDGSWCFService/usersGetIDServiceResponse")]
+        System.Threading.Tasks.Task<string> usersGetIDServiceAsync(string loginName);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -293,6 +299,14 @@ namespace DGSServiceClient.DGSService {
         
         public System.Threading.Tasks.Task<string> addBookServiceAsync(DGSRestServices.Model.Class.BookModel bookModel) {
             return base.Channel.addBookServiceAsync(bookModel);
+        }
+        
+        public string usersGetIDService(string loginName) {
+            return base.Channel.usersGetIDService(loginName);
+        }
+        
+        public System.Threading.Tasks.Task<string> usersGetIDServiceAsync(string loginName) {
+            return base.Channel.usersGetIDServiceAsync(loginName);
         }
     }
 }

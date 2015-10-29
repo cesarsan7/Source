@@ -34,17 +34,18 @@ namespace DGSRestServices.Controller.Class
 
 		#region GET Methods 
 
-		public int usersGetIDController(string loginName, ref ObjectParameter prmOutIdUser)
+		public void usersGetIDController(string loginName,  ref ObjectParameter prmIdUser)
 		{
 
-			int idUser = -1;
+			//short idUser = -1;
+			
 
 			DGSDATAEntities entities = new DGSDATAEntities();
 
 			try
 			{
-				 idUser = entities.Users_GetID(loginName, prmOutIdUser);
-				 return idUser;
+				 entities.Users_GetID(loginName, prmIdUser);
+				// return idUser;
 			}
                        
 			catch

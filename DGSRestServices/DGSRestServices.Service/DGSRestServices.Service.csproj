@@ -84,6 +84,7 @@
     <Compile Include="DGSWCFService.svc.cs">
       <DependentUpon>DGSWCFService.svc</DependentUpon>
     </Compile>
+    <Compile Include="IDGSSoapService.cs" />
     <Compile Include="IDGSWCFService.cs" />
     <Compile Include="Interface\IAgentService.cs" />
     <Compile Include="Interface\IBookService.cs" />
@@ -133,7 +134,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>16687</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:16687/</IISUrl>
+          <IISUrl>http://localhost:16688/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

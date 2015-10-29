@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="38da9948-94f9-4a9f-ba6d-6d1168fe2bf5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="62216c7a-2de9-44f4-93b2-bb470fd116f6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:16687/DGSWCFService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:16688/DGSWCFService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="DGSWCFService.xsd" MetadataType="Schema" ID="a57be891-5af9-4df3-9eed-3838814ad5d3" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?xsd=xsd1" />
-    <MetadataFile FileName="DGSWCFService1.xsd" MetadataType="Schema" ID="e80d9ba0-c3dd-4220-94af-72dbe91e04a3" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?xsd=xsd0" />
-    <MetadataFile FileName="DGSWCFService.wsdl" MetadataType="Wsdl" ID="b4c173a8-9a1e-4941-9407-74fbac89e0d1" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?wsdl" />
-    <MetadataFile FileName="DGSWCFService2.xsd" MetadataType="Schema" ID="3bc261c4-df58-46fc-bbef-c9631b7fce89" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?xsd=xsd2" />
-    <MetadataFile FileName="DGSWCFService.disco" MetadataType="Disco" ID="99a71066-e6e8-48e8-b4ff-aab128276838" SourceId="1" SourceUrl="http://localhost:16687/DGSWCFService.svc?disco" />
+    <MetadataFile FileName="DGSWCFService.wsdl" MetadataType="Wsdl" ID="7e4f6a30-b691-4ddf-851b-a8cf8dfcbcbf" SourceId="1" SourceUrl="http://localhost:16688/DGSWCFService.svc?wsdl" />
+    <MetadataFile FileName="DGSWCFService.xsd" MetadataType="Schema" ID="aef3d826-77c4-4bb0-a359-f2e8d957231d" SourceId="1" SourceUrl="http://localhost:16688/DGSWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DGSWCFService1.xsd" MetadataType="Schema" ID="52275e24-5a38-4edc-909f-2ed33135b2a8" SourceId="1" SourceUrl="http://localhost:16688/DGSWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DGSWCFService2.xsd" MetadataType="Schema" ID="cf09c085-1d45-4a68-9765-265a98dfebfd" SourceId="1" SourceUrl="http://localhost:16688/DGSWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DGSWCFService.disco" MetadataType="Disco" ID="292496e5-e085-4cd7-905b-1cc9752dbbc6" SourceId="1" SourceUrl="http://localhost:16688/DGSWCFService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
